@@ -12,12 +12,12 @@ export function meta() {
 
 export default function Terms() {
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 pb-16">
+    <div className="page-shell pb-16">
       <Breadcrumb trail={[{ label: 'Home', to: '/' }, { label: 'Terms of Use' }]} />
       <div className="pt-6">
         <PageHeader title="Terms of Use" intro="Last updated: November 8, 2026." />
       </div>
-      <div className="mt-8 max-w-3xl space-y-6 text-[15px] leading-7 text-slate-700">
+      <div className="mt-8 max-w-3xl space-y-6 text-[15px] leading-7 text-navy-900/80">
         <section>
           <h2 className="text-lg font-semibold text-navy-950">The service</h2>
           <p className="mt-2">
