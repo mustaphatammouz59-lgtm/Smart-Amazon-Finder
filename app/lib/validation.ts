@@ -7,7 +7,9 @@ import { z } from 'zod'
  */
 
 export const productFinderSchema = z.object({
+  q: z.string().trim().max(120, 'Please keep your description under 120 characters.').optional(),
   category: z.enum(['home-office', 'electronics-accessories']),
+  sort: z.enum(['best-fit', 'price-asc', 'price-desc', 'durability']).default('best-fit'),
   budget: z.coerce
     .number()
     .int()
