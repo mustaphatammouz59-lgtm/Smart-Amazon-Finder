@@ -16,7 +16,7 @@ export const siteConfig = {
   // PLACEHOLDER base URL used for canonical/Open Graph URLs until the
   // real domain exists (domain purchase is a Stage 11 decision).
   // Keep in sync with the SITE_URL var in wrangler.jsonc.
-  siteUrl: 'https://smart-amazon-finder.workers.dev',
+  siteUrl: 'https://smart-amazon-finder.mustaphatammouz59.workers.dev',
   locale: 'en-US',
   defaultOgImage: '/og-default.svg',
 } as const
