@@ -1,0 +1,55 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Internal project identifier. The public brand is decided at gate
+  // D-01 (Stage 11); renaming the Worker then is a config change only.
+  "name": "smart-amazon-finder",
+  "compatibility_date": "2026-11-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./workers/app.ts",
+  "observability": { "enabled": true },
+  "upload_source_maps": true,
+  "vars": {
+    // PLACEHOLDER until the real domain exists (Stage 11). Keep in sync
+    // with app/config/site.ts → siteUrl.
+    "SITE_URL": "https://smart-amazon-finder.workers.dev"
+  },
+  // Secrets are NEVER stored in this file. Set them per environment with
+  // `wrangler secret put <NAME>` (see README → Secrets).
+  //
+  // Bindings below use placeholder IDs. Before the first real deploy,
+  // provision the resources and replace the IDs:
+  //   wrangler d1 create smart-amazon-finder-db
+  //   wrangler kv namespace create APP_KV
+  //   wrangler r2 bucket create smart-amazon-finder-media
+  //   wrangler queues create smart-amazon-finder-jobs
+  // Local development (wrangler dev / react-router dev) emulates all of
+  // them automatically with these names.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "smart-amazon-finder-db",
+      "database_id": "00000000-0000-4000-8000-000000000000",
+      "migrations_dir": "./migrations"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "APP_KV",
+      "id": "00000000000000000000000000000000"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "smart-amazon-finder-media"
+    }
+  ],
+  "queues": {
+    "producers": [
+      { "binding": "JOBS", "queue": "smart-amazon-finder-jobs" }
+    ],
+    "consumers": [
+      { "queue": "smart-amazon-finder-jobs", "max_batch_size": 10, "max_retries": 3 }
+    ]
+  }
+}
