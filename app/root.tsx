@@ -59,7 +59,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main id="main-content" className="flex-1">
-        <div className="mx-auto w-full max-w-3xl px-4 py-16">
+        <div className="page-shell max-w-3xl py-16">
           <ErrorState />
         </div>
       </main>
