@@ -13,12 +13,12 @@ export function meta() {
 
 export default function AffiliateDisclosure() {
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 pb-16">
+    <div className="page-shell pb-16">
       <Breadcrumb trail={[{ label: 'Home', to: '/' }, { label: 'Affiliate Disclosure' }]} />
       <div className="pt-6">
         <PageHeader title="Affiliate Disclosure" intro="Last updated: November 8, 2026." />
       </div>
-      <div className="mt-8 max-w-3xl space-y-6 text-[15px] leading-7 text-slate-700">
+      <div className="mt-8 max-w-3xl space-y-6 text-[15px] leading-7 text-navy-900/80">
         <section>
           <h2 className="text-lg font-semibold text-navy-950">Current status</h2>
           <p className="mt-2">
