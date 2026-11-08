@@ -28,7 +28,7 @@
     {
       "binding": "DB",
       "database_name": "smart-amazon-finder-db",
-      "database_id": "00000000-0000-4000-8000-000000000000",
+      "database_id": "f2bfdc9b-c194-411c-a320-718bb6386635",
       "migrations_dir": "./migrations"
     }
   ],
