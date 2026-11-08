@@ -11,7 +11,7 @@
   "vars": {
     // PLACEHOLDER until the real domain exists (Stage 11). Keep in sync
     // with app/config/site.ts → siteUrl.
-    "SITE_URL": "https://smart-amazon-finder.workers.dev"
+    "SITE_URL": "https://smart-amazon-finder.mustaphatammouz59.workers.dev"
   },
   // Secrets are NEVER stored in this file. Set them per environment with
   // `wrangler secret put <NAME>` (see README → Secrets).
