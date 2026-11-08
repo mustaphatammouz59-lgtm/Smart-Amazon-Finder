@@ -12,7 +12,7 @@ export function meta() {
 
 export default function PrivacyPolicy() {
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 pb-16">
+    <div className="page-shell pb-16">
       <Breadcrumb trail={[{ label: 'Home', to: '/' }, { label: 'Privacy Policy' }]} />
       <div className="pt-6">
         <PageHeader
@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
           intro="Last updated: November 8, 2026. This policy describes the platform in its foundation stage and will be updated before any feature that collects more data is launched."
         />
       </div>
-      <div className="prose-legal mt-8 max-w-3xl space-y-6 text-[15px] leading-7 text-slate-700">
+      <div className="prose-legal mt-8 max-w-3xl space-y-6 text-[15px] leading-7 text-navy-900/80">
         <section>
           <h2 className="text-lg font-semibold text-navy-950">What we collect today</h2>
           <p className="mt-2">
