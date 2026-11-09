@@ -1,0 +1,12 @@
+# Local development overrides ONLY (.dev.vars is git-ignored; never commit
+# real values). Copy to `.dev.vars` for local runs.
+# DEV_FIXTURES=enabled makes the public API include the clearly-labelled
+# development fixtures from fixtures/dev-catalog.sql. It is NEVER set in
+# the production configuration, so fixtures cannot appear in production.
+DEV_FIXTURES=disabled
+# Cloudflare Access verification (Stage 03.2). In production these are
+# set as Worker vars/secrets by the owner from the Access application:
+# the team issuer and the application audience tag. Without them the
+# admin API fails closed (401 for every request).
+# ACCESS_TEAM_DOMAIN=https://your-team.cloudflareaccess.com
+# ACCESS_AUD=your-access-application-audience-tag
