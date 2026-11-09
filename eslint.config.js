@@ -30,5 +30,10 @@ export default tseslint.config(
     files: ['*.{js,ts}', 'tests/**/*.ts'],
     languageOptions: { globals: { ...globals.node } },
   },
+  {
+    // Node utility scripts (spikes, maintenance) run outside the Worker.
+    files: ['scripts/**/*.mjs'],
+    languageOptions: { globals: { ...globals.node } },
+  },
   prettier,
 )
