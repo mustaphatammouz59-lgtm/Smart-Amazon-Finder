@@ -1,6 +1,7 @@
 import type { ProductCard, SpecFilter } from './types'
 import { decodeCursor, encodeCursor, publicGate, specFilterSql } from './types'
 import { displayPrice, getProductOffers } from './offers'
+import { freshnessSqlCondition } from '../price-policy'
 
 export interface SearchParams {
   q?: string
@@ -57,16 +58,19 @@ export async function searchProducts(db: D1Database, params: SearchParams): Prom
   if (params.specFilters && params.specFilters.length > 0) {
     where.push(specFilterSql('p', params.specFilters, binds))
   }
-  // Price filters apply ONLY over policy-valid prices (licensed + fresh):
-  // a product without a displayable price can never match a price filter.
+  // Price filters apply ONLY over policy-valid prices. This SQL mirrors the
+  // ONE shared policy in app/lib/price-policy.ts (Stage 04.2, F-02/F-06/
+  // F-07/F-08): licensed + validation-passed + positive price + valid
+  // currency + a fresh, non-future observation (freshnessSqlCondition).
+  // tests/security/price-policy.test.ts pins JS and SQL to the same verdicts.
   const priceJoin = `
     LEFT JOIN (
       SELECT o.product_id, MIN(o.current_price_cents) AS display_price
         FROM offers o
        WHERE o.licence_status = 'licensed' AND o.validation_status = 'passed'
-         AND o.current_price_cents IS NOT NULL
-         AND o.price_observed_at IS NOT NULL
-         AND (julianday('now') - julianday(o.price_observed_at)) * 24 * 60 * 60 * 1000 <= 86400000
+         AND o.current_price_cents > 0
+         AND o.currency GLOB '[A-Z][A-Z][A-Z]'
+         AND ${freshnessSqlCondition('o')}
        GROUP BY o.product_id
     ) priced ON priced.product_id = p.id`
   if (params.priceMinCents !== undefined) {
