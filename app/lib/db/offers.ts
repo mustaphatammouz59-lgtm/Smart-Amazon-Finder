@@ -1,5 +1,6 @@
 import type { OfferView } from './types'
-import { PRICE_FRESHNESS_MS } from './types'
+import { evaluatePriceDisplay } from '../price-policy'
+import { isAllowedDestinationUrl } from '../url-policy'
 
 interface OfferRow {
   merchant_slug: string
@@ -14,24 +15,32 @@ interface OfferRow {
 }
 
 /**
- * Price policy (DATABASE-DESIGN.md §6.1 + DATA-SOURCING-AND-COMPLIANCE):
- * a price may be displayed ONLY when the offer is validation-passed, its
+ * Price policy (DATABASE-DESIGN.md §6.1 + DATA-SOURCING-AND-COMPLIANCE): a
+ * price may be displayed ONLY when the offer is validation-passed, its
  * licence permits display ('licensed'), and the observation is inside the
  * 24h freshness window. Otherwise the price is hidden (null) and the UI
  * falls back to "Check price" — the value is never exposed by the API.
+ *
+ * Stage 04.2 (audit F-02/F-06/F-07/F-08): the decision itself now lives in
+ * exactly one place — app/lib/price-policy.ts evaluatePriceDisplay — shared
+ * with the admin explanation, offer validation, and the SQL search filter.
+ * This wrapper only shapes the decision into the public view.
+ *
+ * Stage 04.2 (audit F-04): destination_url is exposed only when the offer
+ * passed validation AND the URL passes the centralized outbound policy
+ * (app/lib/url-policy.ts); otherwise it is null — a stored legacy value
+ * must never reach a public response because validation was skipped.
  */
 export function applyPricePolicy(row: OfferRow, now = Date.now()): OfferView {
-  const fresh =
-    row.price_observed_at !== null && now - Date.parse(row.price_observed_at + 'Z') <= PRICE_FRESHNESS_MS
-  const displayable =
-    row.current_price_cents !== null &&
-    row.licence_status === 'licensed' &&
-    row.validation_status === 'passed' &&
-    fresh
+  const decision = evaluatePriceDisplay(row, now)
+  const displayable = decision.displayable
   return {
     merchant_slug: row.merchant_slug,
     merchant_name: row.merchant_name,
-    destination_url: row.destination_url,
+    destination_url:
+      row.validation_status === 'passed' && isAllowedDestinationUrl(row.destination_url)
+        ? row.destination_url
+        : null,
     currency: row.currency,
     price_cents: displayable ? row.current_price_cents : null,
     price_observed_at: displayable ? row.price_observed_at : null,
