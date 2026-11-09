@@ -12,6 +12,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "vitest run",
+    "test:sweep": "node scripts/workerd-sweep.mjs",
     "check": "npm run typecheck && npm run lint && npm run test && npm run build",
     "cf-typegen": "wrangler types"
   },
