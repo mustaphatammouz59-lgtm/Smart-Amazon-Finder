@@ -3,7 +3,10 @@ import { readFileSync } from 'node:fs'
 import { publicPaths } from '../app/data/navigation'
 
 describe('route foundation consistency', () => {
-  const routesSource = readFileSync(new URL('../app/routes.ts', import.meta.url), 'utf-8').replaceAll("'", '"')
+  const routesSource = readFileSync(new URL('../app/routes.ts', import.meta.url), 'utf-8').replaceAll(
+    "'",
+    '"',
+  )
 
   it('every public path has a registered route', () => {
     for (const p of publicPaths) {
