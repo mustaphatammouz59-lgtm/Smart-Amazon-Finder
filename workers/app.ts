@@ -13,6 +13,25 @@ const SECURITY_HEADERS: Record<string, string> = {
   // Foundation stage: keep the whole pre-launch site out of indexes at
   // the header level too (matches robots.txt policy).
   'X-Robots-Tag': 'noindex, nofollow',
+  // Stage 04.2 (audit F-11): HSTS + a CSP were missing entirely. The CSP
+  // is deliberately in a compatibility posture: React Router's SSR
+  // bootstrap uses inline scripts/styles and there is no nonce pipeline
+  // yet, so script/style allow 'unsafe-inline' — but objects, plugins,
+  // base-tag hijacking, framing and cross-origin script/style sources
+  // are all closed, and every fetch defaults to same-origin.
+  'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
+  'Content-Security-Policy': [
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-inline'",
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data: blob: https:",
+    "font-src 'self' data:",
+    "connect-src 'self'",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "frame-ancestors 'none'",
+  ].join('; '),
 }
 
 export default {
