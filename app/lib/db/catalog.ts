@@ -132,6 +132,16 @@ export async function getProductBySlug(
  * - better fit: same category, strictly more comparison-criterion specs.
  * - simpler: same category, strictly fewer specs overall.
  */
+/**
+ * Stage 04.2 (audit F-03) bounds: the peer scan used to load the FULL
+ * detail of every gated product in the category — cost grew linearly with
+ * catalog size on a public, un-rate-limited endpoint. Now the candidate
+ * scan is capped (deterministic order) and each result bucket is capped;
+ * the endpoint answers with at most ALTERNATIVES_PER_BUCKET cards.
+ */
+export const ALTERNATIVES_PEER_SCAN_LIMIT = 48
+export const ALTERNATIVES_PER_BUCKET = 12
+
 export async function getAlternatives(
   db: D1Database,
   slug: string,
@@ -143,15 +153,23 @@ export async function getAlternatives(
   const { results: peers } = await db
     .prepare(
       `SELECT p.slug FROM products p
-        WHERE p.category_id = ? AND p.id != ? AND ${publicGate('p', includeFixtures)}`,
+        WHERE p.category_id = ? AND p.id != ? AND ${publicGate('p', includeFixtures)}
+        ORDER BY p.id ASC LIMIT ?`,
     )
-    .bind(lead.product.category_id, lead.product.id)
+    .bind(lead.product.category_id, lead.product.id, ALTERNATIVES_PEER_SCAN_LIMIT)
     .all<{ slug: string }>()
   const criterionCount = (d: ProductDetail) => d.specs.filter((s) => s.is_comparison_criterion === 1).length
   const cheaper: ProductCard[] = []
   const betterFit: ProductCard[] = []
   const simpler: ProductCard[] = []
   for (const peer of peers) {
+    if (
+      cheaper.length >= ALTERNATIVES_PER_BUCKET &&
+      betterFit.length >= ALTERNATIVES_PER_BUCKET &&
+      simpler.length >= ALTERNATIVES_PER_BUCKET
+    ) {
+      break
+    }
     const detail = await getProductBySlug(db, peer.slug, includeFixtures)
     if (!detail) continue
     const card: ProductCard = {
@@ -164,9 +182,15 @@ export async function getAlternatives(
       ...displayPrice(detail.offers),
     }
     const peerPrice = displayPrice(detail.offers).price_cents
-    if (leadPrice !== null && peerPrice !== null && peerPrice < leadPrice) cheaper.push(card)
-    if (criterionCount(detail) > criterionCount(lead)) betterFit.push(card)
-    if (detail.specs.length < lead.specs.length) simpler.push(card)
+    if (leadPrice !== null && peerPrice !== null && peerPrice < leadPrice && cheaper.length < ALTERNATIVES_PER_BUCKET) {
+      cheaper.push(card)
+    }
+    if (criterionCount(detail) > criterionCount(lead) && betterFit.length < ALTERNATIVES_PER_BUCKET) {
+      betterFit.push(card)
+    }
+    if (detail.specs.length < lead.specs.length && simpler.length < ALTERNATIVES_PER_BUCKET) {
+      simpler.push(card)
+    }
   }
   return { cheaper, betterFit, simpler }
 }
