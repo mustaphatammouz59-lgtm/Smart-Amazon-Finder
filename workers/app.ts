@@ -31,17 +31,39 @@ export default {
     })
   },
 
-  // Queue consumer foundation (SYSTEM-ARCHITECTURE.md §2): jobs are
-  // acknowledged and logged in Stage 01. Real consumers (ingestion,
-  // refresh, reindex) arrive with their stages.
-  async queue(batch) {
-    console.log(
-      JSON.stringify({
-        queue: batch.queue,
-        messages: batch.messages.length,
-        stage: 'foundation-ack',
-      }),
-    )
-    batch.ackAll()
+  // Queue consumers (API-ARCHITECTURE.md §7, Stage 03): `reindex-search`
+  // is implemented against the DAL; the remaining contracts are safe
+  // no-ops until their stages land. Failures retry, then dead-letter
+  // (consumer config in wrangler.jsonc).
+  async queue(batch, env) {
+    const { reindexProduct, rebuildSearchIndex } = await import('../app/lib/db/reindex')
+    for (const message of batch.messages) {
+      const body = (message.body ?? {}) as { job?: string; productId?: number }
+      try {
+        switch (body.job) {
+          case 'reindex-search':
+            if (typeof body.productId === 'number') {
+              await reindexProduct(env.DB, body.productId)
+            } else {
+              await rebuildSearchIndex(env.DB)
+            }
+            break
+          case 'ingest':
+          case 'validate':
+          case 'refresh-offers':
+          case 'sitemaps':
+          case 'alerts':
+          case 'rollups':
+            console.log(JSON.stringify({ queue: batch.queue, job: body.job, stage: 'contract-noop' }))
+            break
+          default:
+            console.error(JSON.stringify({ queue: batch.queue, job: body.job ?? null, error: 'unknown-job' }))
+        }
+        message.ack()
+      } catch (error) {
+        console.error(JSON.stringify({ queue: batch.queue, job: body.job ?? null, error: String(error) }))
+        message.retry()
+      }
+    }
   },
 } satisfies ExportedHandler<Env>
