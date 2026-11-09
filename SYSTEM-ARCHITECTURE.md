@@ -70,7 +70,7 @@ Environments: `dev` (local workerd via the Cloudflare Vite plugin), `staging` (s
 | Object storage: R2 | ADOPT (media only) | For **original/licensed** media the project is allowed to store (editorial images, generated graphics). Amazon product images are **not** copied to R2 — they are served under licence terms (DATA-SOURCING-AND-COMPLIANCE.md §4.1). 10 GB-month free tier, zero egress fees (official pricing). Status: VERIFIED (official docs). |
 | KV | ADOPT (narrow role) | Config, feature flags, cached non-authoritative fragments only. KV is eventually consistent and write-limited on free tier (1,000 writes/day) — it is **never** the store for catalog, prices or sessions. Status: VERIFIED (official pricing page). |
 | Queues | ADOPT (async jobs) | Ingestion, refresh, price snapshots, sitemap rebuilds, email-free alert preparation. Free tier: 10,000 operations/day; a delivered message costs 3 operations (official pricing page). Dead-letter queue mandatory. Status: VERIFIED (official docs). |
-| Search: D1 + SQLite FTS5 | ADOPT, with spike gate | §6. Status: **PENDING spike S-01**. |
+| Search: D1 + SQLite FTS5 | ADOPT, with spike gate | §6. Status: **S-01 PASSED — GO (2026-11-08, Stage 03)**; verdict in §6 below. |
 | Auth (admin) | Cloudflare Access in front of /admin **plus** in-app RBAC (§8) | Defence in depth: Access authenticates identity at the edge; the app authorises roles. Public user accounts (module M) use in-app auth (hashed credentials or magic link via a transactional mail provider — provider choice is a Stage 03 decision, no provider assumed in Stage 00). Status: design decision; provider PENDING. |
 | Testing / CI | Vitest + Playwright; GitHub Actions | Stage 01 sets up unit/integration; e2e for critical flows lands per-module (ACCEPTANCE-CRITERIA.md). Status: design decision. |
 | Analytics | Cloudflare Web Analytics + first-party event table (module Q) | No third-party cross-site trackers at launch. Status: design decision. |
@@ -275,7 +275,8 @@ There is deliberately **no scraper adapter** and no extension point shaped like 
 
 - **Phase 1 (launch):** D1 (SQLite) with an FTS5 virtual table over product name, brand, category, and editorial summary fields; field weights (name > brand > category > summary); filters applied as indexed SQL predicates **before** ranking; sorting by relevance, price (when lawful/current), or editorial rating-free "fit score" from module G.
 - **Why FTS5 first:** zero extra cost, zero extra vendor, transactional consistency with the catalog (same database), and more than enough capacity at launch catalog sizes (hundreds to low tens of thousands of products).
-- **Spike S-01 (Stage 03, blocking):** prove FTS5 exists and performs in D1 (create virtual table, `bm25()` ranking, snippet generation) with a 10,000-row synthetic catalog. If FTS5 is unavailable or materially limited in D1, fallback order: (a) FTS5 in a **local build-time index** is rejected (stale); (b) trigram/LIKE hybrid with strict query limits as a bridge; (c) graduate to dedicated search (§6.1) earlier than planned.
+- **Spike S-01 (Stage 03, blocking):** prove FTS5 exists and performs in D1 (create virtual table, `bm25()` ranking, snippet generation) with a 10,000-row synthetic catalog.
+- **S-01 VERDICT (2026-11-08, Stage 03): GO.** FTS5 was proven inside D1 itself (local workerd database: virtual table creation, content rebuild, `bm25()` MATCH query returning the correct row) and benchmarked on a 10,000-row synthetic catalog (SQLite engine): full insert 51 ms, `bm25()` top-10 query 1.64 ms, match count 0.67 ms, `snippet()` generation working. The external-content design (projection table `products_search` + `products_fts`, migration 0004) is adopted as designed; no fallback is required. Reproducible via `scripts/spike-s01.mjs` and REPORT-stage03-2026-11-08.md. If FTS5 is unavailable or materially limited in D1, fallback order: (a) FTS5 in a **local build-time index** is rejected (stale); (b) trigram/LIKE hybrid with strict query limits as a bridge; (c) graduate to dedicated search (§6.1) earlier than planned.
 - **6.1 Graduation triggers to dedicated search** (any one): catalog > 50,000 products; search p95 latency > 300 ms at production traffic; typo tolerance / synonym requirements exceed rule-based handling; faceting load threatens D1 read budgets (COST-AND-SCALABILITY.md). The search service sits behind the same `/api/search` contract, so graduation is an internal change.
 
 ## 7. Recommendations design (and the AI question)
@@ -296,7 +297,7 @@ AI/ML evaluation (future, separate decision): personalisation models need behavi
 
 | ID | Question | Stage | Blocking for |
 |---|---|---|---|
-| S-01 | FTS5 functional + performant in D1 at 10k rows? | 03 | Stage 07 design finalisation |
+| S-01 | FTS5 functional + performant in D1 at 10k rows? | 03 | Stage 07 design finalisation — **RESOLVED: GO (2026-11-08)** |
 | S-02 | React Router 7 framework + Cloudflare template builds, SSRs, and reads a D1 binding in a loader. | 01 | All frontend work |
 | S-03 | Creators API credential flow works **if** eligibility is ever met (do not build before eligibility). | 06 | Adapter (3) only |
 | S-04 | AdSense approval for the launched site (external decision by Google). | 12 | Ad units only |
