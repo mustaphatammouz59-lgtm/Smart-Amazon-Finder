@@ -1,4 +1,4 @@
-import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from 'react-router'
+import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration, useLocation } from 'react-router'
 
 import type { Route } from './+types/root'
 import './app.css'
@@ -26,6 +26,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  const { pathname } = useLocation()
+  // The admin dashboard supplies its own chrome (sidebar, environment
+  // banner) and must never render inside the public header/footer.
+  if (pathname === '/admin' || pathname.startsWith('/admin/')) {
+    return (
+      <main id="main-content">
+        <Outlet />
+      </main>
+    )
+  }
   return (
     <div className="flex min-h-screen flex-col">
       <a
