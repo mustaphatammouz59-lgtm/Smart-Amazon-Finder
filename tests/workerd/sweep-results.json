@@ -1,0 +1,171 @@
+{
+  "tool": "scripts/workerd-sweep.mjs",
+  "generated_at": "2026-11-09T18:08:09.140Z",
+  "environment": "wrangler dev (workerd), local D1/R2/queues only, local JWKS, ephemeral keys",
+  "total": 23,
+  "passed": 23,
+  "failed": 0,
+  "results": [
+    {
+      "id": "boot",
+      "name": "wrangler dev becomes ready",
+      "expected": "ready",
+      "actual": "ready",
+      "pass": true
+    },
+    {
+      "id": "health",
+      "name": "GET /api/health",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "headers-csp",
+      "name": "CSP header present (F-11)",
+      "expected": "present",
+      "actual": "present",
+      "pass": true
+    },
+    {
+      "id": "headers-hsts",
+      "name": "HSTS header present (F-11)",
+      "expected": "present",
+      "actual": "present",
+      "pass": true
+    },
+    {
+      "id": "admin-anon",
+      "name": "GET /api/admin/overview without token",
+      "expected": "401",
+      "actual": "401",
+      "pass": true
+    },
+    {
+      "id": "admin-owner",
+      "name": "GET /api/admin/overview as owner",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "admin-page-denied",
+      "name": "GET /admin without Access session renders the denied panel (F-16: HTTP 200, no data)",
+      "expected": "200 + denied panel",
+      "actual": "200 + denied panel",
+      "pass": true
+    },
+    {
+      "id": "product-create",
+      "name": "POST /api/admin/products as editor",
+      "expected": "201",
+      "actual": "201",
+      "pass": true
+    },
+    {
+      "id": "product-detail",
+      "name": "GET admin product detail carries spec definitions",
+      "expected": "definition id",
+      "actual": "1",
+      "pass": true
+    },
+    {
+      "id": "product-specs",
+      "name": "PUT product specs",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "product-validate",
+      "name": "POST product validate → passed",
+      "expected": "200/passed",
+      "actual": "200/passed",
+      "pass": true
+    },
+    {
+      "id": "publish-rbac",
+      "name": "editor publish attempt is refused",
+      "expected": "403",
+      "actual": "403",
+      "pass": true
+    },
+    {
+      "id": "product-publish",
+      "name": "POST product publish as publisher",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "public-visible",
+      "name": "GET /api/v1/products/sweep-widget (published)",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "product-patch",
+      "name": "PATCH product (clear summary)",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "f01-invisible",
+      "name": "public product is 404 after invalidating edit (F-01)",
+      "expected": "404",
+      "actual": "404",
+      "pass": true
+    },
+    {
+      "id": "f01-gate",
+      "name": "republish is refused by the validation gate",
+      "expected": "409",
+      "actual": "409",
+      "pass": true
+    },
+    {
+      "id": "cross-origin",
+      "name": "POST with foreign Origin",
+      "expected": "403",
+      "actual": "403",
+      "pass": true
+    },
+    {
+      "id": "offer-js-url",
+      "name": "POST offer with javascript: URL",
+      "expected": "400",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "media-upload",
+      "name": "POST product media (PNG)",
+      "expected": "201",
+      "actual": "201",
+      "pass": true
+    },
+    {
+      "id": "media-content",
+      "name": "GET media content as admin",
+      "expected": "200 image/png",
+      "actual": "200 image/png",
+      "pass": true
+    },
+    {
+      "id": "media-content-anon",
+      "name": "GET media content anonymously",
+      "expected": "401",
+      "actual": "401",
+      "pass": true
+    },
+    {
+      "id": "search",
+      "name": "GET /api/v1/search",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    }
+  ]
+}
