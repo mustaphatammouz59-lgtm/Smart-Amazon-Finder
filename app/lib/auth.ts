@@ -72,7 +72,9 @@ export async function requireAdmin(
     throw new ApiError('UNAUTHENTICATED', 'No admin account exists for this identity.')
   }
   if (!roleAllowed(admin.role, area, action)) {
-    throw new ApiError('FORBIDDEN', `Role '${admin.role}' may not perform '${action}' on '${area}'.`)
+    // F-17 (minors): the caller's role is not echoed into the error — the
+    // response goes to the identity that was just denied.
+    throw new ApiError('FORBIDDEN', `This role may not perform '${action}' on '${area}'.`)
   }
   return admin
 }
