@@ -33,7 +33,9 @@ export interface SpecValue {
 export interface OfferView {
   merchant_slug: string
   merchant_name: string
-  destination_url: string
+  /** Non-null ONLY when the offer passed validation AND the URL passes the
+   *  outbound policy (Stage 04.2, audit F-04) — see db/offers.ts. */
+  destination_url: string | null
   currency: string
   /** Non-null ONLY when the price policy allows display (see offers.ts). */
   price_cents: number | null
