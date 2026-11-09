@@ -30,7 +30,19 @@ export function accessConfigFromEnv(env: unknown): AccessConfig | null {
   const issuer = record?.ACCESS_TEAM_DOMAIN
   const audience = record?.ACCESS_AUD
   if (typeof issuer !== 'string' || typeof audience !== 'string') return null
-  if (!issuer.startsWith('https://') && !issuer.startsWith('http://127.0.0.1')) return null
+  // Stage 04.2 (F-17 minors): the loopback allowance is an EXACT host
+  // check — the old prefix test also matched 'http://127.0.0.1.evil.com'.
+  let issuerUrl: URL
+  try {
+    issuerUrl = new URL(issuer)
+  } catch {
+    return null
+  }
+  const isHttps = issuerUrl.protocol === 'https:'
+  const isLoopbackDev =
+    issuerUrl.protocol === 'http:' &&
+    (issuerUrl.hostname === '127.0.0.1' || issuerUrl.hostname === 'localhost')
+  if (!isHttps && !isLoopbackDev) return null
   if (issuer.endsWith('/') || audience.length === 0) return null
   return { issuer, audience }
 }
