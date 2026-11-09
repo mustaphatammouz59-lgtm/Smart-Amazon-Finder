@@ -4,6 +4,7 @@ import { ApiError, apiJson, withApi } from '../lib/api'
 import { requireAdmin } from '../lib/auth'
 import { accessConfigFromEnv } from '../lib/access'
 import { enforceRateLimit } from '../lib/rate-limit'
+import { assertSameOrigin } from '../lib/origin'
 import { transitionProductStatus, writeAudit } from '../lib/db/admin'
 import { reindexProduct } from '../lib/db/reindex'
 
@@ -17,6 +18,7 @@ export const action = withApi(async ({ request, params }: Route.ActionArgs) => {
   const db = (env as Env).DB as D1Database
   const actor = await requireAdmin(request, db, 'products', 'publish', accessConfigFromEnv(env))
   await enforceRateLimit(env, 'adminWrite', actor.email)
+  assertSameOrigin(request)
   const id = Number(params.id)
   if (!Number.isInteger(id) || id <= 0)
     throw new ApiError('VALIDATION_FAILED', 'Invalid product id.', { id: 'Must be a positive integer.' })
