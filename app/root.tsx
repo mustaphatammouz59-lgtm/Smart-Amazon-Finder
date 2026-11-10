@@ -1,9 +1,18 @@
-import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration, useLocation } from 'react-router'
+import {
+  isRouteErrorResponse,
+  Links,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+  useLocation,
+} from 'react-router'
 
 import type { Route } from './+types/root'
 import './app.css'
 import { Footer, Header } from './components/layout/chrome'
 import { ErrorState, NotFoundState } from './components/state/states'
+import { CompareTray } from './components/engagement/list-buttons'
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -49,6 +58,10 @@ export default function App() {
         <Outlet />
       </main>
       <Footer />
+      {/* Consumer comparison tray — public layout only. The admin branch
+          above returns earlier, so admin pages never render it; CompareTray
+          also gates itself by pathname (no /admin, no /compare). */}
+      <CompareTray />
     </div>
   )
 }
