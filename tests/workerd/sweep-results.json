@@ -1,9 +1,9 @@
 {
   "tool": "scripts/workerd-sweep.mjs",
-  "generated_at": "2026-11-09T18:08:09.140Z",
+  "generated_at": "2026-11-09T19:59:22.611Z",
   "environment": "wrangler dev (workerd), local D1/R2/queues only, local JWKS, ephemeral keys",
-  "total": 23,
-  "passed": 23,
+  "total": 30,
+  "passed": 30,
   "failed": 0,
   "results": [
     {
@@ -100,6 +100,55 @@
     {
       "id": "public-visible",
       "name": "GET /api/v1/products/sweep-widget (published)",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "ssr-product",
+      "name": "GET /product/sweep-widget renders the published product",
+      "expected": "200 + name",
+      "actual": "200 + name",
+      "pass": true
+    },
+    {
+      "id": "ssr-product-noindex",
+      "name": "product page keeps the global X-Robots-Tag noindex",
+      "expected": "noindex, nofollow",
+      "actual": "noindex, nofollow",
+      "pass": true
+    },
+    {
+      "id": "ssr-category",
+      "name": "GET /category/home-office lists the published product",
+      "expected": "200 + name",
+      "actual": "200 + name",
+      "pass": true
+    },
+    {
+      "id": "ssr-product-404",
+      "name": "GET /product/no-such-product is 404",
+      "expected": "404",
+      "actual": "404",
+      "pass": true
+    },
+    {
+      "id": "ssr-category-404",
+      "name": "GET /category/no-such-category is 404",
+      "expected": "404",
+      "actual": "404",
+      "pass": true
+    },
+    {
+      "id": "ssr-favorites",
+      "name": "GET /favorites renders",
+      "expected": "200",
+      "actual": "200",
+      "pass": true
+    },
+    {
+      "id": "ssr-compare",
+      "name": "GET /compare renders",
       "expected": "200",
       "actual": "200",
       "pass": true
