@@ -7,6 +7,15 @@ import { type RouteConfig, index, route } from '@react-router/dev/routes'
  */
 export default [
   index('routes/home.tsx'),
+  // Dynamic catalog routes (Stage 05.1): deliberately NOT in
+  // publicPaths/sitemap — record sitemaps arrive at the launch stage per
+  // SEO-STRATEGY §4; global noindex unchanged.
+  route('product/:slug', 'routes/product.tsx'),
+  route('category/:slug', 'routes/category.tsx'),
+  // Personal client-side page (Stage 05.1): favorites live in the
+  // visitor's browser (localStorage) — no account, no server data.
+  // Deliberately NOT in publicPaths/sitemap; the page meta is noindex.
+  route('favorites', 'routes/favorites.tsx'),
   route('product-finder', 'routes/product-finder.tsx'),
   route('compare', 'routes/compare.tsx'),
   route('alternatives', 'routes/alternatives.tsx'),
