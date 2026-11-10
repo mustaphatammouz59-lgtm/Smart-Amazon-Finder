@@ -4,6 +4,7 @@ import { displayPrice, getProductOffers } from './offers'
 
 export interface ListParams {
   categorySlug?: string
+  categorySlugs?: string[]
   brandSlugs?: string[]
   specFilters?: SpecFilter[]
   sort?: 'name' | 'newest'
@@ -49,7 +50,10 @@ export async function listProducts(db: D1Database, params: ListParams): Promise<
   const offset = decodeCursor(params.cursor)
   const binds: unknown[] = []
   const where: string[] = [publicGate('p', params.includeFixtures)]
-  if (params.categorySlug) {
+  if (params.categorySlugs && params.categorySlugs.length > 0) {
+    where.push(`c.slug IN (${params.categorySlugs.map(() => '?').join(',')})`)
+    binds.push(...params.categorySlugs)
+  } else if (params.categorySlug) {
     where.push('c.slug = ?')
     binds.push(params.categorySlug)
   }
@@ -123,6 +127,40 @@ export async function getProductBySlug(
     offers: await getProductOffers(db, row.id),
     attributes,
   }
+}
+
+export interface CategoryDetail {
+  category: { id: number; slug: string; name: string; description: string | null; parent_id: number | null }
+  parent: { slug: string; name: string } | null
+  children: Array<{ slug: string; name: string; description: string | null }>
+}
+
+/**
+ * Category structure lookup for public category pages. Categories are
+ * structure, not gated content — any existing category row may render a
+ * page (its product list is what's gated via listProducts/publicGate).
+ */
+export async function getCategoryBySlug(db: D1Database, slug: string): Promise<CategoryDetail | null> {
+  const category = await db
+    .prepare('SELECT id, slug, name, description, parent_id FROM categories WHERE slug = ?')
+    .bind(slug)
+    .first<{ id: number; slug: string; name: string; description: string | null; parent_id: number | null }>()
+  if (!category) return null
+  let parent: { slug: string; name: string } | null = null
+  if (category.parent_id !== null) {
+    const parentRow = await db
+      .prepare('SELECT slug, name FROM categories WHERE id = ?')
+      .bind(category.parent_id)
+      .first<{ slug: string; name: string }>()
+    parent = parentRow ?? null
+  }
+  const { results: children } = await db
+    .prepare(
+      'SELECT slug, name, description FROM categories WHERE parent_id = ? ORDER BY sort_order ASC, name ASC',
+    )
+    .bind(category.id)
+    .all<{ slug: string; name: string; description: string | null }>()
+  return { category, parent, children }
 }
 
 /**
