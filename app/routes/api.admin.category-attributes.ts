@@ -15,6 +15,7 @@ const createSchema = z.object({
   unit: z.string().trim().max(20).optional().nullable(),
   valueType: z.enum(['number', 'text', 'bool']),
   isFilterable: z.boolean().optional(),
+  isRequired: z.boolean().optional(),
   isComparisonCriterion: z.boolean().optional(),
   sortWeight: z.number().int().optional(),
 })
