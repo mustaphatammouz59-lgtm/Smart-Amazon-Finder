@@ -35,6 +35,7 @@ export interface AdminProductSpecRow {
   unit: string | null
   value_type: string
   is_filterable: number
+  is_required: number
   is_comparison_criterion: number
   sort_weight: number
   value_number: number | null
@@ -143,7 +144,7 @@ export async function getAdminProduct(
   const { results: specs } = await db
     .prepare(
       `SELECT d.id AS definition_id, d.key, d.label, d.unit, d.value_type,
-              d.is_filterable, d.is_comparison_criterion, d.sort_weight,
+              d.is_filterable, d.is_required, d.is_comparison_criterion, d.sort_weight,
               s.value_number, s.value_text, s.value_bool
          FROM attribute_definitions d
          LEFT JOIN product_specs s ON s.definition_id = d.id AND s.product_id = ?
