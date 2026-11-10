@@ -1,0 +1,671 @@
+{
+  "stage": "05.4",
+  "generated": "2026-11-09",
+  "scope": "LOCAL node:sqlite database only — no production data",
+  "tally": {
+    "products": 47,
+    "offers_passed": 47,
+    "products_passed": 47,
+    "products_failed": 0
+  },
+  "results": [
+    {
+      "slug": "anker-332-usb-c-hub-5-in-1-a8355",
+      "category": "usb-c-hubs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "anker-341-usb-c-hub-7-in-1-a8346",
+      "category": "usb-c-hubs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "anker-717-charger-140w-a2341",
+      "category": "chargers-power-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "anker-735-charger-nano-ii-65w-a2667",
+      "category": "chargers-power-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "anker-737-charger-ganprime-120w-a2148",
+      "category": "chargers-power-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "apple-thunderbolt-4-pro-cable-1-8m",
+      "category": "cables-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "belkin-boostcharge-eco-usb-c-to-usb-c-cable-240w-1m-cab025",
+      "category": "cables-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "belkin-boostcharge-pro-4-port-gan-charger-108w-wch010",
+      "category": "chargers-power-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "belkin-boostcharge-usb-c-to-usb-c-cable-240w-1m-cab015",
+      "category": "cables-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "belkin-connect-pro-thunderbolt-4-dock-inc006",
+      "category": "docking-stations",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "belkin-connect-usb-c-6-in-1-multiport-hub-avc008",
+      "category": "usb-c-hubs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "benq-screenbar",
+      "category": "desk-lighting",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "benq-wit-e-reading-lamp",
+      "category": "desk-lighting",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "caldigit-thunderbolt-4-cable-0-8m",
+      "category": "cables-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "caldigit-ts4-thunderbolt-station-4",
+      "category": "docking-stations",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "comfilife-foot-rest",
+      "category": "ergonomic-supports",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "dell-thunderbolt-dock-wd22tb4",
+      "category": "docking-stations",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "dyson-solarcycle-morph-desk",
+      "category": "desk-lighting",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ergotron-lx-desk-monitor-arm",
+      "category": "monitor-arms",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "haworth-zody",
+      "category": "office-chairs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "herman-miller-sayl",
+      "category": "office-chairs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-alex-drawer-unit",
+      "category": "desk-organization-storage",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-bekant-corner-desk-left-160x110",
+      "category": "desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-bekant-desk-160x80",
+      "category": "desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-bekant-desk-sit-stand-120x80",
+      "category": "standing-desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-idasen-desk-160x80",
+      "category": "desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-idasen-desk-sit-stand-160x80",
+      "category": "standing-desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-jarvfjallet",
+      "category": "office-chairs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-markus",
+      "category": "office-chairs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-mittzon-desk-120x80",
+      "category": "desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-mittzon-desk-sit-stand-160x60",
+      "category": "standing-desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-rodulf-desk-sit-stand-140x80",
+      "category": "standing-desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-trotten-desk-120x70",
+      "category": "desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ikea-trotten-desk-sit-stand-160x80",
+      "category": "standing-desks",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "kensington-sd5700t-thunderbolt-4-docking-station",
+      "category": "docking-stations",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "lamicall-ultra-thin-foldable-cell-phone-stand-for-desk",
+      "category": "device-stands-holders",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "nulaxy-c3-laptop-stand",
+      "category": "laptop-stands",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ottlite-harmonize-led-desk-lamp",
+      "category": "desk-lighting",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ottlite-recharge-led-desk-lamp",
+      "category": "desk-lighting",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "plugable-triple-monitor-usb-c-docking-station-ud-768pdz",
+      "category": "docking-stations",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "plugable-usb-c-hub-7-in-1-usbc-7in1",
+      "category": "usb-c-hubs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "steelcase-series-1",
+      "category": "office-chairs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "tomtoc-defender-a13-360-protective-laptop-sleeve-13-inch",
+      "category": "cases-sleeves-protection",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "tripp-lite-protect-it-6-outlet-surge-protector-tlp606",
+      "category": "power-strips-surge-protectors",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ugreen-nexode-100w-gan-charger-cd226",
+      "category": "chargers-power-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ugreen-revodok-pro-108-8-in-1-usb-c-hub-75027",
+      "category": "usb-c-hubs",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    },
+    {
+      "slug": "ugreen-usb-c-to-usb-c-cable-100w-2m-70427",
+      "category": "cables-adapters",
+      "offer_validation": "passed",
+      "offer_issues": [
+        "warning:no_price",
+        "warning:availability_unknown"
+      ],
+      "product_validation": "passed",
+      "product_issues": [],
+      "product_warnings": [
+        "missing_media"
+      ]
+    }
+  ]
+}
