@@ -245,6 +245,25 @@ try {
   const pub = await sweepReq('/api/v1/products/sweep-widget')
   check('public-visible', 'GET /api/v1/products/sweep-widget (published)', 200, pub.status, pub.status === 200)
 
+  // Stage 05.1: the new public SSR catalog pages over real HTTP, while
+  // the sweep product is published (the F-01 edit below invalidates it).
+  const ssrProduct = await sweepReq('/product/sweep-widget')
+  const ssrProductText = await ssrProduct.text()
+  check('ssr-product', 'GET /product/sweep-widget renders the published product', '200 + name', `${ssrProduct.status} + ${ssrProductText.includes('Sweep Widget') ? 'name' : 'no-name'}`, ssrProduct.status === 200 && ssrProductText.includes('Sweep Widget'))
+  const ssrRobots = ssrProduct.headers.get('x-robots-tag') ?? ''
+  check('ssr-product-noindex', 'product page keeps the global X-Robots-Tag noindex', 'noindex, nofollow', ssrRobots, ssrRobots.includes('noindex'))
+  const ssrCategory = await sweepReq('/category/home-office')
+  const ssrCategoryText = await ssrCategory.text()
+  check('ssr-category', 'GET /category/home-office lists the published product', '200 + name', `${ssrCategory.status} + ${ssrCategoryText.includes('Sweep Widget') ? 'name' : 'no-name'}`, ssrCategory.status === 200 && ssrCategoryText.includes('Sweep Widget'))
+  const ssrProduct404 = await sweepReq('/product/no-such-product')
+  check('ssr-product-404', 'GET /product/no-such-product is 404', 404, ssrProduct404.status, ssrProduct404.status === 404)
+  const ssrCategory404 = await sweepReq('/category/no-such-category')
+  check('ssr-category-404', 'GET /category/no-such-category is 404', 404, ssrCategory404.status, ssrCategory404.status === 404)
+  const ssrFavorites = await sweepReq('/favorites')
+  check('ssr-favorites', 'GET /favorites renders', 200, ssrFavorites.status, ssrFavorites.status === 200)
+  const ssrCompare = await sweepReq('/compare')
+  check('ssr-compare', 'GET /compare renders', 200, ssrCompare.status, ssrCompare.status === 200)
+
   // F-01 over real HTTP: edit the summary away → product disappears.
   const patched = await sweepReq(`/api/admin/products/${productId}`, {
     method: 'PATCH',
