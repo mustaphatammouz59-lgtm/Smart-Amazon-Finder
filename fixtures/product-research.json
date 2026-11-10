@@ -1,0 +1,2141 @@
+{
+  "generated": "2026-11-09",
+  "stage": "05.4",
+  "products": [
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "desks",
+      "destination_url": "https://www.ikea.com.tr/en/product/trotten-white-120x70-cm-desk-59621917",
+      "evidence": [
+        {
+          "covers": [
+            "width_cm",
+            "depth_cm",
+            "max_load_kg",
+            "warranty_years",
+            "height_adjustable"
+          ],
+          "note": "Manufacturer page opened: Measurements list Width 120 cm, Depth 70 cm, Height 75 cm (single fixed height, product positioned as 'desk', not sit/stand), Max. load 50 kg; page states '10 year guarantee'.",
+          "url": "https://www.ikea.com.tr/en/product/trotten-white-120x70-cm-desk-59621917?component=complementary"
+        }
+      ],
+      "model_ref": "TROTTEN 596.219.17",
+      "name": "TROTTEN desk, white, 120x70 cm",
+      "slug": "ikea-trotten-desk-120x70",
+      "sources": [
+        "https://www.ikea.com.tr/en/product/trotten-white-120x70-cm-desk-59621917?component=complementary",
+        "https://www.ikea.com.tw/en/products/office-workspace/office-desks-and-tables/trotten-spr-39621918",
+        "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+      ],
+      "specs": {
+        "depth_cm": 70,
+        "height_adjustable": false,
+        "max_load_kg": 50,
+        "warranty_years": 10,
+        "width_cm": 120
+      },
+      "summary": "A compact fixed-height desk with A-shaped steel legs that leave the full underside clear for a chair or storage. IKEA publishes a single assembled height of 75 cm and a 50 kg maximum load for the 120 by 70 cm top. It sits in IKEA's office range and carries the range's 10-year guarantee.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "desks",
+      "destination_url": "https://www.ikea.com/ie/en/p/bekant-desk-white-s19022808/",
+      "evidence": [
+        {
+          "covers": [
+            "warranty_years",
+            "height_adjustable"
+          ],
+          "note": "Manufacturer page opened: states '10 year guarantee'; description says the top is mounted at a height that suits you because legs are adjustable between 65-85 cm at assembly. Maker positions this as 'desk' and sells height adjustment in use only as the separate 'BEKANT desk sit/stand', so height_adjustable is false.",
+          "url": "https://www.ikea.com/ie/en/p/bekant-desk-white-s19022808/"
+        },
+        {
+          "covers": [
+            "width_cm",
+            "depth_cm",
+            "max_load_kg"
+          ],
+          "note": "Manufacturer page indexed content: Measurements Length 160 cm, Depth 80 cm, Max. load 100 kg. IKEA's 'Length' (long side) is recorded as width_cm and 'Depth' as depth_cm.",
+          "url": "https://www.ikea.com/in/en/p/bekant-desk-white-s09222563/"
+        }
+      ],
+      "model_ref": "BEKANT 190.228.08",
+      "name": "BEKANT desk, white, 160x80 cm",
+      "slug": "ikea-bekant-desk-160x80",
+      "sources": [
+        "https://www.ikea.com/ie/en/p/bekant-desk-white-s19022808/",
+        "https://www.ikea.com/in/en/p/bekant-desk-white-s09222563/",
+        "https://www.ikea.cn/cn/en/p/bekant-desk-linoleum-blue-white-s89282765/"
+      ],
+      "specs": {
+        "depth_cm": 80,
+        "height_adjustable": false,
+        "max_load_kg": 100,
+        "warranty_years": 10,
+        "width_cm": 160
+      },
+      "summary": "A large straight office desk sold as the fixed counterpart to the separate BEKANT sit/stand model; its top height is chosen once, when the legs are mounted at assembly. IKEA rates the 160 by 80 cm surface for 100 kg, the highest load among the fixed desks in this set. The product page states a 10-year guarantee.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "desks",
+      "destination_url": "https://www.ikea.com/mx/en/p/bekant-corner-desk-left-white-black-s09006408/",
+      "evidence": [
+        {
+          "covers": [
+            "width_cm",
+            "depth_cm",
+            "max_load_kg"
+          ],
+          "note": "Manufacturer page indexed content for article 090.064.08: Measurements Length 160 cm, Depth 110 cm, Max. height 85 cm, Max. load 100 kg. 'Length' recorded as width_cm, 'Depth' as depth_cm.",
+          "url": "https://www.ikea.com/mx/en/p/bekant-corner-desk-left-white-black-s09006408/"
+        },
+        {
+          "covers": [
+            "warranty_years",
+            "height_adjustable"
+          ],
+          "note": "Manufacturer page opened for the same article: states '10 year guarantee' and that the top is mounted at a chosen height, legs adjustable between 65-85 cm at assembly; positioned as 'corner desk left', distinct from the separate sit/stand version, so height_adjustable is false.",
+          "url": "https://www.ikea.com.tr/en/p09006408"
+        }
+      ],
+      "model_ref": "BEKANT 090.064.08",
+      "name": "BEKANT corner desk left, white/black, 160x110 cm",
+      "slug": "ikea-bekant-corner-desk-left-160x110",
+      "sources": [
+        "https://www.ikea.com/mx/en/p/bekant-corner-desk-left-white-black-s09006408/",
+        "https://www.ikea.com.tr/en/p09006408"
+      ],
+      "specs": {
+        "depth_cm": 110,
+        "height_adjustable": false,
+        "max_load_kg": 100,
+        "warranty_years": 10,
+        "width_cm": 160
+      },
+      "summary": "A left-hand corner version of the BEKANT fixed desk, giving a deeper 110 cm return on one side for a larger work area. Like the straight BEKANT, the height is set when the legs are mounted rather than adjusted in use. IKEA publishes a 100 kg maximum load and a 10-year guarantee for it.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "desks",
+      "destination_url": "https://www.ikea.com/ee/en/p/mittzon-desk-oak-veneer-white-s29526097/",
+      "evidence": [
+        {
+          "covers": [
+            "warranty_years",
+            "height_adjustable",
+            "width_cm",
+            "depth_cm",
+            "max_load_kg"
+          ],
+          "note": "Manufacturer page opened: 'Backed by a 10-year guarantee' and 'possibility to set the right height during assembly'; description states 'Reassembly of legs required to change the desk height', supporting height_adjustable false. Indexed Measurements for the same page: Max. load 50 kg, Width 120 cm, Depth 80 cm.",
+          "url": "https://www.ikea.com/ee/en/p/mittzon-desk-oak-veneer-white-s29526097/"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "Manufacturer guarantee brochure opened: 10-year guarantee covering defects in material, workmanship and function, listing 'MITTZON desks, tables' among covered products.",
+          "url": "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+        }
+      ],
+      "model_ref": "MITTZON 295.260.97",
+      "name": "MITTZON desk, oak veneer/white, 120x80 cm",
+      "slug": "ikea-mittzon-desk-120x80",
+      "sources": [
+        "https://www.ikea.com/ee/en/p/mittzon-desk-oak-veneer-white-s29526097/",
+        "https://www.ikea.com/be/en/p/mittzon-desk-walnut-veneer-black-s89526099/",
+        "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+      ],
+      "specs": {
+        "depth_cm": 80,
+        "height_adjustable": false,
+        "max_load_kg": 50,
+        "warranty_years": 10,
+        "width_cm": 120
+      },
+      "summary": "A 120 by 80 cm desk from IKEA's MITTZON office system whose working height is selected during assembly. IKEA states plainly that the legs must be reassembled to change that height, which makes it a fixed desk in use rather than a sit-stand desk. It is rated for 50 kg and backed by a 10-year guarantee.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "desks",
+      "destination_url": "https://www.ikea.com/in/en/p/idasen-desk-brown-dark-grey-s79281040/",
+      "evidence": [
+        {
+          "covers": [
+            "warranty_years",
+            "height_adjustable",
+            "width_cm",
+            "depth_cm",
+            "max_load_kg"
+          ],
+          "note": "Manufacturer page opened: shows '10 year warranty'; description says the top is mounted at a height that suits you since legs are adjustable between 62 and 76 cm at assembly (maker sells adjustment in use only as 'IDÅSEN desk sit/stand'). Indexed Measurements for the same page: Length 160 cm, Width 80 cm, Max. load 70 kg; 'Length' recorded as width_cm, 'Width' (short side) as depth_cm.",
+          "url": "https://www.ikea.com/in/en/p/idasen-desk-brown-dark-grey-s79281040/"
+        }
+      ],
+      "model_ref": "IDÅSEN 792.810.40",
+      "name": "IDÅSEN desk, brown/dark grey, 160x80 cm",
+      "slug": "ikea-idasen-desk-160x80",
+      "sources": [
+        "https://www.ikea.com/in/en/p/idasen-desk-brown-dark-grey-s79281040/",
+        "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+      ],
+      "specs": {
+        "depth_cm": 80,
+        "height_adjustable": false,
+        "max_load_kg": 70,
+        "warranty_years": 10,
+        "width_cm": 160
+      },
+      "summary": "The fixed version of IDÅSEN pairs a contoured 160 by 80 cm top with trestle-style legs whose height is set when the top is mounted. IKEA rates this version for 70 kg, notably more than several smaller fixed desks here. The product page labels it with a 10-year warranty.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "standing-desks",
+      "destination_url": "https://www.ikea.com/at/en/p/bekant-desk-sit-stand-white-s49022519/",
+      "evidence": [
+        {
+          "covers": [
+            "warranty_years",
+            "height_adjustable",
+            "max_desk_height_cm",
+            "motorized"
+          ],
+          "note": "Manufacturer page opened: '10 year guarantee'; description states height is adjusted electrically from 65 to 125 cm, and the electric sit/stand underframe raises and lowers the desk at the touch of a button, supporting motorized true and max_desk_height_cm 125.",
+          "url": "https://www.ikea.com/at/en/p/bekant-desk-sit-stand-white-s49022519/"
+        },
+        {
+          "covers": [
+            "width_cm",
+            "depth_cm",
+            "max_load_kg",
+            "max_desk_height_cm"
+          ],
+          "note": "Manufacturer page indexed content for the same 120x80 white configuration: Length 120 cm, Width 80 cm, Min. height 65 cm, Max. height 125 cm, Max. load 70 kg. 'Length' recorded as width_cm, 'Width' (short side) as depth_cm.",
+          "url": "https://www.ikea.cn/cn/en/p/bekant-desk-sit-stand-white-s49386411/"
+        }
+      ],
+      "model_ref": "BEKANT 490.225.19",
+      "name": "BEKANT desk sit/stand, white, 120x80 cm",
+      "slug": "ikea-bekant-desk-sit-stand-120x80",
+      "sources": [
+        "https://www.ikea.com/at/en/p/bekant-desk-sit-stand-white-s49022519/",
+        "https://www.ikea.com/be/en/p/bekant-desk-sit-stand-white-s49022519/",
+        "https://www.ikea.cn/cn/en/p/bekant-desk-sit-stand-white-s49386411/"
+      ],
+      "specs": {
+        "depth_cm": 80,
+        "height_adjustable": true,
+        "max_desk_height_cm": 125,
+        "max_load_kg": 70,
+        "motorized": true,
+        "warranty_years": 10,
+        "width_cm": 120
+      },
+      "summary": "IKEA's mainstream electric sit-stand desk, raising and lowering its 120 by 80 cm top at the touch of a button. The published range runs from 65 cm for sitting to 125 cm for standing, with a 70 kg maximum load. IKEA states a 10-year guarantee on the product page.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "standing-desks",
+      "destination_url": "https://www.ikea.com/nz/en/p/idasen-desk-sit-stand-brown-beige-s29280967/",
+      "evidence": [
+        {
+          "covers": [
+            "warranty_years",
+            "height_adjustable",
+            "max_desk_height_cm"
+          ],
+          "note": "Manufacturer page opened: '10 year guarantee'; description states the height adjusts between 63 and 127 cm, so the maximum of the published range is 127 cm.",
+          "url": "https://www.ikea.com/nz/en/p/idasen-desk-sit-stand-brown-beige-s29280967/"
+        },
+        {
+          "covers": [
+            "width_cm",
+            "depth_cm",
+            "max_load_kg",
+            "motorized"
+          ],
+          "note": "Manufacturer page indexed content: Product dimensions Length 160 cm, Width 80 cm, Min. height 63 cm, Max. height 127 cm, Max. load 70 kg; components list the electric sit/stand underframe ('underframe sit/stand f table tp, el') and app control, supporting motorized true. 'Length' recorded as width_cm, 'Width' as depth_cm.",
+          "url": "https://www.ikea.cn/cn/en/p/idasen-desk-sit-stand-brown-beige-s59280975/"
+        }
+      ],
+      "model_ref": "IDÅSEN 292.809.67",
+      "name": "IDÅSEN desk sit/stand, brown/beige, 160x80 cm",
+      "slug": "ikea-idasen-desk-sit-stand-160x80",
+      "sources": [
+        "https://www.ikea.com/nz/en/p/idasen-desk-sit-stand-brown-beige-s29280967/",
+        "https://www.ikea.cn/cn/en/p/idasen-desk-sit-stand-brown-beige-s59280975/",
+        "https://www.ikea.cn/cn/en/p/idasen-desk-sit-stand-brown-dark-grey-s29281014/"
+      ],
+      "specs": {
+        "depth_cm": 80,
+        "height_adjustable": true,
+        "max_desk_height_cm": 127,
+        "max_load_kg": 70,
+        "motorized": true,
+        "warranty_years": 10,
+        "width_cm": 160
+      },
+      "summary": "The electric IDÅSEN offers the widest height span in this set, from 63 cm up to 127 cm, on a 160 by 80 cm contoured top. It can also be controlled through a desk-control app as well as its handle switch. IKEA publishes a 70 kg maximum load and a 10-year guarantee.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "standing-desks",
+      "destination_url": "https://www.ikea.cn/cn/en/p/mittzon-mi-te-cong-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se-hei-se-s09529134/",
+      "evidence": [
+        {
+          "covers": [
+            "warranty_years",
+            "motorized",
+            "height_adjustable",
+            "width_cm",
+            "depth_cm",
+            "max_load_kg",
+            "max_desk_height_cm"
+          ],
+          "note": "Manufacturer page opened: states '10-year guarantee', 'Dual-motor desk' and an electric sit/stand hand control with 2 memory settings. Indexed Product dimensions for the same page (160x60 configuration): Width 160 cm, Depth 60 cm, Max. load 80 kg, Max. height 126 cm, Min. height 62 cm.",
+          "url": "https://www.ikea.cn/cn/en/p/mittzon-mi-te-cong-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se-hei-se-s09529134/"
+        }
+      ],
+      "model_ref": "MITTZON 095.291.34",
+      "name": "MITTZON desk sit/stand, electric white/black, 160x60 cm",
+      "slug": "ikea-mittzon-desk-sit-stand-160x60",
+      "sources": [
+        "https://www.ikea.cn/cn/en/p/mittzon-mi-te-cong-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se-hei-se-s09529134/",
+        "https://www.ikea.com.tw/en/products/office-workspace/office-desks-and-tables/mittzon-spr-99527734",
+        "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+      ],
+      "specs": {
+        "depth_cm": 60,
+        "height_adjustable": true,
+        "max_desk_height_cm": 126,
+        "max_load_kg": 80,
+        "motorized": true,
+        "warranty_years": 10,
+        "width_cm": 160
+      },
+      "summary": "A dual-motor electric desk in IKEA's MITTZON system, here in the shallower 160 by 60 cm configuration. It carries the highest load in this standing set at 80 kg and reaches 126 cm at the top of its range. The maker includes a cable-management tray and a hand control with two memory settings, under a 10-year guarantee.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "standing-desks",
+      "destination_url": "https://www.ikea.com/nl/en/p/rodulf-desk-sit-stand-electric-white-s59530328/",
+      "evidence": [
+        {
+          "covers": [
+            "width_cm",
+            "depth_cm",
+            "max_load_kg",
+            "max_desk_height_cm",
+            "motorized",
+            "height_adjustable"
+          ],
+          "note": "Manufacturer page indexed content for article 595.303.28: 'Electric height adjustment from 70-117 cm', dual-motor description, Measurements Length 140 cm, Width 80 cm, Min. height 70 cm, Max. height 117 cm, Max. load 70 kg. 'Length' recorded as width_cm, 'Width' as depth_cm.",
+          "url": "https://www.ikea.com/cz/en/p/rodulf-desk-sit-stand-electric-white-s59530328/"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "Manufacturer guarantee brochure opened: 10-year guarantee listing 'RODULF desk' among the covered office products.",
+          "url": "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+        }
+      ],
+      "model_ref": "RODULF 595.303.28",
+      "name": "RODULF desk sit/stand, electric/white, 140x80 cm",
+      "slug": "ikea-rodulf-desk-sit-stand-140x80",
+      "sources": [
+        "https://www.ikea.com/cz/en/p/rodulf-desk-sit-stand-electric-white-s59530328/?page-title=~RODULF~%20Desk%20sit%2Fstand&page-url=https://www.ikea.com/cz/en/p/rodulf-desk-sit-stand-electric-white-s59530328/",
+        "https://www.ikea.com/nl/en/p/rodulf-desk-sit-stand-electric-white-s59530328/",
+        "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+      ],
+      "specs": {
+        "depth_cm": 80,
+        "height_adjustable": true,
+        "max_desk_height_cm": 117,
+        "max_load_kg": 70,
+        "motorized": true,
+        "warranty_years": 10,
+        "width_cm": 140
+      },
+      "summary": "A mid-size electric sit-stand desk with a 140 by 80 cm top and a hand control offering two memory settings. IKEA publishes an electric adjustment range of 70 to 117 cm and a 70 kg maximum load. RODULF is named in IKEA's office furniture guarantee brochure with a 10-year guarantee.",
+      "group": "g1"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "standing-desks",
+      "destination_url": "https://www.ikea.cn/cn/en/p/trotten-desk-sit-stand-white-s59429603/",
+      "evidence": [
+        {
+          "covers": [
+            "warranty_years",
+            "height_adjustable",
+            "motorized",
+            "width_cm",
+            "depth_cm",
+            "max_load_kg",
+            "max_desk_height_cm"
+          ],
+          "note": "Manufacturer page opened: states '10 year guarantee'; text says height is adjusted between 70 and 120 cm 'by just cranking the handle' (manual, so motorized false); Product dimensions list Width 160 cm, Depth 80 cm, Max. height 122 cm, Min. height 72 cm, Max. load 50 kg. max_desk_height_cm uses the page's published assembled Max. height of 122 cm.",
+          "url": "https://www.ikea.cn/cn/en/p/trotten-desk-sit-stand-white-s59429603/"
+        }
+      ],
+      "model_ref": "TROTTEN 594.296.03",
+      "name": "TROTTEN desk sit/stand, white, 160x80 cm",
+      "slug": "ikea-trotten-desk-sit-stand-160x80",
+      "sources": [
+        "https://www.ikea.cn/cn/en/p/trotten-desk-sit-stand-white-s59429603/",
+        "https://www.ikea.com/ee/en/files/pdf/5e/b8/5eb89fb6/office_furniture_guarantee_brochure_a5.pdf"
+      ],
+      "specs": {
+        "depth_cm": 80,
+        "height_adjustable": true,
+        "max_desk_height_cm": 122,
+        "max_load_kg": 50,
+        "motorized": false,
+        "warranty_years": 10,
+        "width_cm": 160
+      },
+      "summary": "The only manual desk in this standing set: a crank handle, which can be fitted on either side, moves the 160 by 80 cm top between sitting and standing heights. IKEA rates it for 50 kg, lower than the electric models here. It carries the TROTTEN range's 10-year guarantee.",
+      "group": "g1"
+    },
+    {
+      "brand": "Herman Miller",
+      "brand_slug": "herman-miller",
+      "brand_website": "https://www.hermanmiller.com",
+      "category": "office-chairs",
+      "destination_url": "https://eustore.hermanmiller.com/products/sayl-office-chair",
+      "evidence": [
+        {
+          "covers": [
+            "max_load_kg",
+            "warranty_years",
+            "height_adjustable",
+            "adjustable_lumbar_support",
+            "armrest_adjustable"
+          ],
+          "note": "Manufacturer store product page states 'Max Capacity 159 kg' and 'This product has a 12-year warranty'; seat height range 419-559 mm confirms height adjustment. Features list includes 'Optional Height Adjustable Lumbar Support' (a factory-fitted integrated option, not a loose add-on pillow; the standard back has PostureFit sacral support) and the configurator offers 'Fixed or Fully Adjustable Arms' — armrest_adjustable recorded for the fully adjustable arms configuration.",
+          "url": "https://eustore.hermanmiller.com/products/sayl-office-chair?variant=56420164862331"
+        }
+      ],
+      "model_ref": "Sayl",
+      "name": "Sayl Office Chair",
+      "slug": "herman-miller-sayl",
+      "sources": [
+        "https://eustore.hermanmiller.com/products/sayl-office-chair?variant=56420164862331"
+      ],
+      "specs": {
+        "adjustable_lumbar_support": true,
+        "armrest_adjustable": true,
+        "height_adjustable": true,
+        "max_load_kg": 159,
+        "warranty_years": 12
+      },
+      "summary": "A task chair built around a frameless, suspension-style back inspired by bridge engineering, so the back flexes and supports the spine without a rigid frame. It offers pneumatic seat-height adjustment, an optional height-adjustable lumbar support, and a choice of fixed or fully adjustable arms. Herman Miller rates it for users up to 159 kg and backs it with a 12-year warranty.",
+      "group": "g2"
+    },
+    {
+      "brand": "Steelcase",
+      "brand_slug": "steelcase",
+      "brand_website": "https://www.steelcase.com",
+      "category": "office-chairs",
+      "destination_url": "https://www.steelcase.com/products/office-chairs/steelcase-series-1/",
+      "evidence": [
+        {
+          "covers": [
+            "max_load_kg",
+            "warranty_years",
+            "adjustable_lumbar_support",
+            "height_adjustable",
+            "armrest_adjustable"
+          ],
+          "note": "Manufacturer product page states the chair supports users 'up to 400 lbs' (original figure in lb; 400 / 2.20462 = 181.4 kg), is 'backed by the Steelcase Limited Lifetime warranty - 12 years, multi-shift, 24/7 parts and labor' (limited warranty), 'Adjustable lumbar is standard', the 'Seat is height- and depth-adjustable', and 'Standard 4-dimensional arm support adjusts to preferred height, width, depth, and pivot'.",
+          "url": "https://www.steelcase.com/products/office-chairs/steelcase-series-1/?drawer_main=documents&drawer_sub=product-literature"
+        },
+        {
+          "covers": [
+            "adjustable_lumbar_support",
+            "armrest_adjustable",
+            "height_adjustable"
+          ],
+          "note": "Manufacturer EU product page corroborates: 'Height-adjustable lumbar support comes as standard', 'Standard 4-dimensional arm support adjusts to preferred height, width, depth, and pivot', and 'Seat is height- and depth-adjustable'.",
+          "url": "https://www.steelcase.com/eu-en/products/office-chairs/steelcase-series-1/"
+        }
+      ],
+      "model_ref": "Series 1",
+      "name": "Steelcase Series 1",
+      "slug": "steelcase-series-1",
+      "sources": [
+        "https://www.steelcase.com/products/office-chairs/steelcase-series-1/?drawer_main=documents&drawer_sub=product-literature",
+        "https://www.steelcase.com/eu-en/products/office-chairs/steelcase-series-1/"
+      ],
+      "specs": {
+        "adjustable_lumbar_support": true,
+        "armrest_adjustable": true,
+        "height_adjustable": true,
+        "max_load_kg": 181.4,
+        "warranty_years": 12
+      },
+      "summary": "Steelcase's entry-level ergonomic work chair pairs a weight-activated or manual synchro mechanism with a seat that adjusts in both height and depth. Height-adjustable lumbar support is fitted as standard, and the standard arms move in four dimensions. It is rated for users up to 400 lb and covered by a 12-year parts-and-labor limited warranty.",
+      "group": "g2"
+    },
+    {
+      "brand": "Haworth",
+      "brand_slug": "haworth",
+      "brand_website": "https://www.haworth.com",
+      "category": "office-chairs",
+      "destination_url": "https://in.shopping.haworth.com/products/zody-ergonomic-office-chair",
+      "evidence": [
+        {
+          "covers": [
+            "max_load_kg",
+            "height_adjustable",
+            "adjustable_lumbar_support",
+            "armrest_adjustable"
+          ],
+          "note": "Haworth's own webshop product page states 'Warrantied for people up to 145 Kg' (maker's rated capacity), 'Seat height adjusts from 412 mm to 544 mm', 'Lumbar support adjusts up and down' (and independently left/right via the PAL system), and '4D adjustable arms'.",
+          "url": "https://in.shopping.haworth.com/products/zody-ergonomic-office-chair"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "Haworth North America Limited Warranty (effective April 1, 2026) lists 'Twelve (12) Years' coverage for Haworth branded seating products; warranty is limited.",
+          "url": "https://www.haworth.com/na/en/design-resources/warranty.html"
+        }
+      ],
+      "model_ref": "Zody",
+      "name": "Zody",
+      "slug": "haworth-zody",
+      "sources": [
+        "https://in.shopping.haworth.com/products/zody-ergonomic-office-chair",
+        "https://www.haworth.com/na/en/design-resources/warranty.html"
+      ],
+      "specs": {
+        "adjustable_lumbar_support": true,
+        "armrest_adjustable": true,
+        "height_adjustable": true,
+        "max_load_kg": 145,
+        "warranty_years": 12
+      },
+      "summary": "Haworth's long-running ergonomic task chair is known for its pelvic and asymmetrical lumbar system, which lets the user adjust lumbar height and set support independently on the left and right sides. It adds 4D arms and a sliding seat on a standard five-star base. Haworth warrants it for people up to 145 kg, with seating covered for 12 years under its limited warranty.",
+      "group": "g2"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "office-chairs",
+      "destination_url": "https://www.ikea.com.tw/en/products/office-workspace/office-chairs/jarvfjallet-art-20521853",
+      "evidence": [
+        {
+          "covers": [
+            "height_adjustable",
+            "adjustable_lumbar_support",
+            "armrest_adjustable",
+            "warranty_years",
+            "max_load_kg",
+            "seat_depth_cm"
+          ],
+          "note": "IKEA product page (article 205.218.53, Grann white) lists under Ergonomics: 'Adjustable seat height, Adjustable seat depth, Adjustable lumbar support, 2D adjustable armrests', states '10 year guarantee', and its measurement table gives 'Tested for: 110 kg', 'Seat depth: 46 cm', 'Min. seat height: 45 cm', 'Max. seat height: 56 cm'.",
+          "url": "https://www.ikea.com.tw/en/products/office-workspace/office-chairs/jarvfjallet-art-20521853"
+        },
+        {
+          "covers": [
+            "adjustable_lumbar_support",
+            "warranty_years",
+            "max_load_kg"
+          ],
+          "note": "IKEA Ireland page for the same chair (Glose black, article 205.106.42) corroborates: 'well-shaped backrest with adjustable lumbar support', '10 year guarantee', 'Tested for: 110 kg'.",
+          "url": "https://www.ikea.com/ie/en/p/jaervfjaellet-office-chair-with-armrests-glose-black-20510642/"
+        }
+      ],
+      "model_ref": "205.218.53",
+      "name": "JÄRVFJÄLLET Office Chair with Armrests",
+      "slug": "ikea-jarvfjallet",
+      "sources": [
+        "https://www.ikea.com.tw/en/products/office-workspace/office-chairs/jarvfjallet-art-20521853",
+        "https://www.ikea.com/ie/en/p/jaervfjaellet-office-chair-with-armrests-glose-black-20510642/"
+      ],
+      "specs": {
+        "adjustable_lumbar_support": true,
+        "armrest_adjustable": true,
+        "height_adjustable": true,
+        "max_load_kg": 110,
+        "seat_depth_cm": 46,
+        "warranty_years": 10
+      },
+      "summary": "IKEA's higher-end ergonomic chair combines a mesh back with a shaped, height-adjustable lumbar support and a synchronised tilt mechanism that follows the sitter's movements. The seat adjusts in height and depth, and the armrests adjust in height and width (2D). IKEA tests it for loads up to 110 kg and includes a 10-year guarantee.",
+      "group": "g2"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "office-chairs",
+      "destination_url": "https://www.ikea.com/th/en/p/markus-office-chair-vissle-dark-grey-50261151/",
+      "evidence": [
+        {
+          "covers": [
+            "max_load_kg",
+            "warranty_years",
+            "adjustable_lumbar_support",
+            "armrest_adjustable"
+          ],
+          "note": "IKEA product page (Medium, article 502.611.51) states 'Tested for: 110 kg' and '10 year guarantee', and describes 'built-in lumbar support' — a fixed, integrated support with no adjustment offered, so adjustable_lumbar_support is false. The maker's details name no armrest adjustment (fixed armrests), so armrest_adjustable is false. Note: figures are for the Medium article 502.611.51; the Large variant is tested for a higher load and was not mixed in.",
+          "url": "https://www.ikea.com/th/en/p/markus-office-chair-vissle-dark-grey-50261151/"
+        },
+        {
+          "covers": [
+            "height_adjustable",
+            "warranty_years"
+          ],
+          "note": "IKEA Philippines page for the same article states '10-year Warranty' and lists 'Adjustable seat height. Manual tilt tension.' as the chair's adjustments — seat height is the only height adjustment claimed by the maker.",
+          "url": "http://ikea.com/ph/en/p/markus-office-chair-vissle-dark-gray-50261151/"
+        }
+      ],
+      "model_ref": "502.611.51",
+      "name": "MARKUS Office Chair, Vissle Dark Gray, Medium",
+      "slug": "ikea-markus",
+      "sources": [
+        "https://www.ikea.com/th/en/p/markus-office-chair-vissle-dark-grey-50261151/",
+        "http://ikea.com/ph/en/p/markus-office-chair-vissle-dark-gray-50261151/"
+      ],
+      "specs": {
+        "adjustable_lumbar_support": false,
+        "armrest_adjustable": false,
+        "height_adjustable": true,
+        "max_load_kg": 110,
+        "warranty_years": 10
+      },
+      "summary": "A tall mesh-back office chair with an integrated headrest and a curved back that gives built-in, non-adjustable lumbar support; only the seat height is adjustable, and the armrests are fixed. Tilt tension is set manually with a knob under the seat. IKEA tests the Medium version for up to 110 kg and covers it with a 10-year guarantee.",
+      "group": "g2"
+    },
+    {
+      "brand": "Dyson",
+      "brand_slug": "dyson",
+      "brand_website": "https://www.dyson.com",
+      "category": "desk-lighting",
+      "destination_url": "https://www.dyson.co.uk/lighting/desk-lamps/solarcycle-morph/black-black",
+      "evidence": [
+        {
+          "covers": [
+            "brightness_lumens",
+            "dimmable",
+            "adjustable_color_temperature"
+          ],
+          "note": "Manufacturer product page states 'Light output 850 lm', colour temperature 2700-6500 K, and 'Dimming and colour temperature controls' via slide touch controls (rated power 11.2 W).",
+          "url": "https://www.dyson.co.uk/lighting/desk-lamps/solarcycle-morph/black-black"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "Dyson's guarantee terms page states 'All Dyson lighting and hand dryers come with a 5-year Dyson Guarantee.' (The product page's generic '2-5 year warranty' line is ambiguous, so the guarantee-terms figure is used.)",
+          "url": "https://www.dyson.com.au/footer-primary-links/guarantee-terms"
+        }
+      ],
+      "model_ref": "CD06",
+      "name": "Solarcycle Morph Desk Lamp",
+      "slug": "dyson-solarcycle-morph-desk",
+      "sources": [
+        "https://www.dyson.co.uk/lighting/desk-lamps/solarcycle-morph/black-black",
+        "https://www.dyson.com.au/footer-primary-links/guarantee-terms"
+      ],
+      "specs": {
+        "adjustable_color_temperature": true,
+        "brightness_lumens": 850,
+        "dimmable": true,
+        "warranty_years": 5
+      },
+      "summary": "Dyson's desk lamp tracks local daylight and shifts its colour temperature and brightness through the day to match, using an articulated arm that can also dock into a floor-style or ambient configuration in the Morph design. Output is rated at 850 lumens with slide-touch controls for dimming and colour temperature between 2700K and 6500K. Dyson covers its lighting range with a 5-year guarantee.",
+      "group": "g2"
+    },
+    {
+      "brand": "BenQ",
+      "brand_slug": "benq",
+      "brand_website": "https://www.benq.com",
+      "category": "desk-lighting",
+      "destination_url": "https://www.benq.com/en-ap/lighting/e-reading-desk-lamp.html",
+      "evidence": [
+        {
+          "covers": [
+            "brightness_lumens",
+            "adjustable_color_temperature"
+          ],
+          "note": "BenQ's own lamp comparison table (benq.com subdomain) lists the WiT Eye-Care Desk Lamp's Luminous Flux as '2700K: 800 lm / 5700K: 900 lm' and colour temperature 2700K-5700K; brightness_lumens records the maximum published figure (900 lm). Note: BenQ's current regional spec page for this lamp publishes only center illuminance (1600 lux) and no lumens, so the lumen figure is taken from BenQ's own comparison table.",
+          "url": "https://g5-staging64.benq.com/en-me/lamps.html"
+        },
+        {
+          "covers": [
+            "dimmable",
+            "adjustable_color_temperature"
+          ],
+          "note": "Manufacturer product page describes the 'Dimming Knob', 'Auto Dimming Mode', and '2700K-5700K 13 Levels Color Temperature' with paper/screen reading modes.",
+          "url": "https://www.benq.com/en-ap/lighting/e-reading-desk-lamp.html"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "BenQ Singapore warranty information page table: 'Lamps and ScreenBar model/type | All models | 12 months' — a 1-year manufacturer warranty for the lamp line.",
+          "url": "https://www.benq.com/en-sg/support/registration-warranty/warranty-information/lamp.html"
+        }
+      ],
+      "model_ref": "AR15_D",
+      "name": "WiT e-Reading Lamp",
+      "slug": "benq-wit-e-reading-lamp",
+      "sources": [
+        "https://g5-staging64.benq.com/en-me/lamps.html",
+        "https://www.benq.com/en-ap/lighting/e-reading-desk-lamp.html",
+        "https://www.benq.com/en-sg/support/registration-warranty/warranty-information/lamp.html"
+      ],
+      "specs": {
+        "adjustable_color_temperature": true,
+        "brightness_lumens": 900,
+        "dimmable": true,
+        "warranty_years": 1
+      },
+      "summary": "BenQ's WiT is a wide-curve desk lamp designed to light a broad desktop area evenly for reading and screen work. A rotary knob handles dimming, an auto-dimming mode reacts to ambient light, and colour temperature steps through 13 levels from 2700K to 5700K. BenQ's own lamp comparison lists its luminous flux at 800 lm at 2700K and 900 lm at 5700K.",
+      "group": "g2"
+    },
+    {
+      "brand": "BenQ",
+      "brand_slug": "benq",
+      "brand_website": "https://www.benq.com",
+      "category": "desk-lighting",
+      "destination_url": "https://www.benq.com/en-ph/lighting/monitor-light.html",
+      "evidence": [
+        {
+          "covers": [
+            "brightness_lumens",
+            "adjustable_color_temperature"
+          ],
+          "note": "BenQ's own lamp comparison table (benq.com subdomain) lists ScreenBar Luminous Flux as '2700K: 220~300 lm / 6500K: 230~320 lm' and colour temperature 2700K-6500K; brightness_lumens records the maximum of the manufacturer's published range (320 lm). Higher lumen figures seen on retailer/ICEcat sheets (e.g. 930) are not manufacturer-published and conflict with this table (apparent lux confusion), so they were not used.",
+          "url": "https://g5-staging64.benq.com/en-me/lamps.html"
+        },
+        {
+          "covers": [
+            "dimmable",
+            "adjustable_color_temperature"
+          ],
+          "note": "BenQ ScreenBar series page lists the original ScreenBar with 'Color Temperature 2700K - 6500K 8 Levels' and 'Real-time Auto-Dimming, Auto Dimming Mode', confirming both dimming and adjustable colour temperature.",
+          "url": "https://www.benq.com/en-ph/lighting/monitor-light.html"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "BenQ Singapore warranty information page explicitly covers ScreenBar: 'Lamps and ScreenBar model/type | All models | 12 months' — a 1-year manufacturer warranty.",
+          "url": "https://www.benq.com/en-sg/support/registration-warranty/warranty-information/lamp.html"
+        }
+      ],
+      "model_ref": "ScreenBar",
+      "name": "ScreenBar Monitor Light Bar",
+      "slug": "benq-screenbar",
+      "sources": [
+        "https://g5-staging64.benq.com/en-me/lamps.html",
+        "https://www.benq.com/en-ph/lighting/monitor-light.html",
+        "https://www.benq.com/en-sg/support/registration-warranty/warranty-information/lamp.html"
+      ],
+      "specs": {
+        "adjustable_color_temperature": true,
+        "brightness_lumens": 320,
+        "dimmable": true,
+        "warranty_years": 1
+      },
+      "summary": "The original ScreenBar clips onto the top of a monitor and throws light onto the desk only, avoiding screen glare while freeing up desk space. A built-in ambient sensor provides real-time auto-dimming, brightness can also be set manually by touch, and colour temperature spans 2700K to 6500K in 8 levels. BenQ's own comparison table rates its luminous flux at up to 320 lm depending on colour temperature.",
+      "group": "g2"
+    },
+    {
+      "brand": "OttLite",
+      "brand_slug": "ottlite",
+      "brand_website": "https://ottlite.com",
+      "category": "desk-lighting",
+      "destination_url": "https://ottlite.com/products/harmonize-led-desk-lamp",
+      "evidence": [
+        {
+          "covers": [
+            "brightness_lumens",
+            "dimmable",
+            "adjustable_color_temperature",
+            "warranty_years"
+          ],
+          "note": "Manufacturer product page (model CS01SV9-SHPR) states 'Maximum lumen output of 440', '3 brightness settings' with touch controls (dimmable), '3 color temperature modes', and '2 Year Warranty' on all lamps.",
+          "url": "https://ottlite.com/products/harmonize-led-desk-lamp"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "OttLite warranty page confirms '2 years from date of purchase: OttLite lamps and accessories (excluding batteries)'.",
+          "url": "https://www.ottlite.com/warranty"
+        }
+      ],
+      "model_ref": "CS01SV9-SHPR",
+      "name": "Harmonize LED Desk Lamp",
+      "slug": "ottlite-harmonize-led-desk-lamp",
+      "sources": [
+        "https://ottlite.com/products/harmonize-led-desk-lamp",
+        "https://www.ottlite.com/warranty"
+      ],
+      "specs": {
+        "adjustable_color_temperature": true,
+        "brightness_lumens": 440,
+        "dimmable": true,
+        "warranty_years": 2
+      },
+      "summary": "A compact OttLite desk lamp using the brand's ClearSun LED, which is designed to reduce eyestrain by mimicking natural daylight. It offers three touch-controlled brightness settings and three colour temperature modes, with a maximum output of 440 lumens. OttLite backs its lamps with a 2-year warranty.",
+      "group": "g2"
+    },
+    {
+      "brand": "OttLite",
+      "brand_slug": "ottlite",
+      "brand_website": "https://ottlite.com",
+      "category": "desk-lighting",
+      "destination_url": "https://ottlite.com/products/recharge-led-desk-lamp-black",
+      "evidence": [
+        {
+          "covers": [
+            "brightness_lumens",
+            "dimmable",
+            "warranty_years"
+          ],
+          "note": "Manufacturer product page (black variant, model CS59G59-SHPR) states 'Maximum lumen output of 275', 'Three brightness settings' (dimmable), and '2 Year Warranty' on all lamps. The page lists no colour-temperature modes (single ClearSun output), so adjustable_color_temperature is omitted rather than claimed.",
+          "url": "https://ottlite.com/products/recharge-led-desk-lamp-black"
+        },
+        {
+          "covers": [
+            "warranty_years"
+          ],
+          "note": "OttLite warranty page confirms '2 years from date of purchase: OttLite lamps and accessories (excluding batteries)'.",
+          "url": "https://www.ottlite.com/warranty"
+        }
+      ],
+      "model_ref": "CS59G59-SHPR",
+      "name": "Recharge LED Desk Lamp",
+      "slug": "ottlite-recharge-led-desk-lamp",
+      "sources": [
+        "https://ottlite.com/products/recharge-led-desk-lamp-black",
+        "https://www.ottlite.com/warranty"
+      ],
+      "specs": {
+        "brightness_lumens": 275,
+        "dimmable": true,
+        "warranty_years": 2
+      },
+      "summary": "A cordless, rechargeable OttLite desk lamp built for portability, with a flexible neck and the brand's ClearSun daylight-style LED. It provides three brightness settings and a maximum output of 275 lumens, so it suits travel, bedside, or temporary workspaces. Like other OttLite lamps it carries a 2-year warranty.",
+      "group": "g2"
+    },
+    {
+      "brand": "Ergotron",
+      "brand_slug": "ergotron",
+      "brand_website": "https://www.ergotron.com",
+      "category": "monitor-arms",
+      "destination_url": "https://media.ergotron.com/reserved/resources/05-056-ea-orig.pdf",
+      "evidence": [
+        {
+          "covers": [
+            "height_adjustable",
+            "max_load_kg",
+            "warranty_years",
+            "screen_size_max_in",
+            "vesa_compatible",
+            "tilt_adjustable"
+          ],
+          "note": "Official Ergotron LX datasheet (c) 2024 Ergotron, Inc., rev. 08.09.2024, hosted on media.ergotron.com. States: Typical LCD Size <= 34 in; Weight Capacity 7-25 lbs (3.2-11.3 kg) - max_load_kg 11.3 taken from maker's own kg figure (25 lb / 2.20462 = 11.3 kg); Lift 13 in (33 cm) so height_adjustable=true; Tilt 75 degrees so tilt_adjustable=true; VESA FDMI MIS-D, 100/75, C (100 x 100 mm & 75 x 75 mm) so vesa_compatible=true; Warranty 10 years. Part numbers listed include 45-241-026 (polished aluminum/black, 2-piece desk clamp).",
+          "url": "https://media.ergotron.com/reserved/resources/05-056-ea-orig.pdf"
+        }
+      ],
+      "model_ref": "45-241-026",
+      "name": "LX Desk Monitor Arm",
+      "slug": "ergotron-lx-desk-monitor-arm",
+      "sources": [
+        "https://media.ergotron.com/reserved/resources/05-056-ea-orig.pdf",
+        "https://www.ergodirect.com/16106-ergotron-45-241-026-lx-desk-mount-lcd-arm.html"
+      ],
+      "specs": {
+        "height_adjustable": true,
+        "max_load_kg": 11.3,
+        "screen_size_max_in": 34,
+        "tilt_adjustable": true,
+        "vesa_compatible": true,
+        "warranty_years": 10
+      },
+      "summary": "Ergotron's LX is a single-display desk arm built around a counterbalanced lift that lets the screen be repositioned with a light touch. It folds back toward its pole to free up desk space and ships with both desk-clamp and grommet mounting hardware. The maker rates it for typical screens up to 34 inches and backs it with a ten-year warranty.",
+      "group": "g3"
+    },
+    {
+      "brand": "Nulaxy",
+      "brand_slug": "nulaxy",
+      "brand_website": "https://nulaxy.com",
+      "category": "laptop-stands",
+      "destination_url": "https://nulaxy.com/products/laptop-stand/",
+      "evidence": [
+        {
+          "covers": [
+            "max_laptop_size_in",
+            "height_adjustable",
+            "max_load_kg"
+          ],
+          "note": "Manufacturer product page (nulaxy.com), opened directly. States compatibility with all laptops from 10-16 inches, so max_laptop_size_in=16. States the stand is able to support a laptop weighing up to 22 lbs (10 kg) - maker publishes 10 kg directly (22 / 2.20462 = 10.0 kg), so max_load_kg=10. Describes a fixed ergonomic riser that elevates the screen to 7 inches with a detachable 3-part construction and no height-adjustment mechanism, so height_adjustable=false is recorded honestly for a fixed riser.",
+          "url": "https://nulaxy.com/products/laptop-stand/"
+        }
+      ],
+      "model_ref": "C3",
+      "name": "C3 Fully Aluminum Detachable Laptop Stand",
+      "slug": "nulaxy-c3-laptop-stand",
+      "sources": [
+        "https://nulaxy.com/products/laptop-stand/"
+      ],
+      "specs": {
+        "height_adjustable": false,
+        "max_laptop_size_in": 16,
+        "max_load_kg": 10
+      },
+      "summary": "The Nulaxy C3 is a fixed-height riser made from 5 mm aluminium alloy that lifts a laptop screen by about seven inches. Its three pieces slot together without tools and can be taken apart again for storage or travel. An open back is intended to aid airflow, and rubber pads help keep the machine steady on the stand.",
+      "group": "g3"
+    },
+    {
+      "brand": "IKEA",
+      "brand_slug": "ikea",
+      "brand_website": "https://www.ikea.com",
+      "category": "desk-organization-storage",
+      "destination_url": "https://www.ikea.com/sg/en/p/alex-drawer-unit-white-40473549/",
+      "evidence": [
+        {
+          "covers": [
+            "storage_compartments"
+          ],
+          "note": "IKEA's own product page for ALEX Drawer unit, white, 36x70 cm, article number 404.735.49, opened directly. The page's product imagery descriptions on ikea.com describe the unit as having five drawers ('five-drawer' unit), so storage_compartments=5 (number of drawers as presented by the maker). Page also confirms product name and article number.",
+          "url": "https://www.ikea.com/sg/en/p/alex-drawer-unit-white-40473549/"
+        },
+        {
+          "covers": [
+            "width_cm",
+            "depth_cm",
+            "max_load_kg"
+          ],
+          "note": "IKEA Taiwan official product page for the same article (404.735.49), opened directly; its Product measurements table states verbatim: Max. load 12 kg; Width 36 cm; Depth 58 cm; Height 70 cm; Depth of drawer (inside) 52 cm; Max. load/drawer 4 kg. The same measurements block (Width 36 cm, Depth 58 cm, Max. load 12 kg) appears consistently across IKEA country sites for this article family (e.g. 004.735.46 / 604.735.48 variants).",
+          "url": "https://www.ikea.com.tw/en/products/home-workspace/storage-for-home-office/alex-art-40473549?pr_rd_page=2"
+        }
+      ],
+      "model_ref": "404.735.49",
+      "name": "ALEX Drawer Unit, White, 36x70 cm",
+      "slug": "ikea-alex-drawer-unit",
+      "sources": [
+        "https://www.ikea.com/sg/en/p/alex-drawer-unit-white-40473549/",
+        "https://www.ikea.com.tw/en/products/home-workspace/storage-for-home-office/alex-art-40473549?pr_rd_page=2"
+      ],
+      "specs": {
+        "depth_cm": 58,
+        "max_load_kg": 12,
+        "storage_compartments": 5,
+        "width_cm": 36
+      },
+      "summary": "IKEA's ALEX is a narrow drawer unit designed to support a desk or stand alone, with a finished back so it can be placed anywhere in a room. Its five drawers come in shallower and deeper sizes, giving a mix of compartment depths within a 36 cm-wide footprint. Drawer stops keep each drawer from being pulled out too far.",
+      "group": "g3"
+    },
+    {
+      "brand": "ComfiLife",
+      "brand_slug": "comfilife",
+      "brand_website": "https://comfilife.com",
+      "category": "ergonomic-supports",
+      "destination_url": "https://comfilife.com/product/comfilife-foot-rest/",
+      "evidence": [
+        {
+          "covers": [
+            "height_adjustable",
+            "thickness_cm"
+          ],
+          "note": "Manufacturer product page (comfilife.com), opened directly. Product is described as 'Foam with Adjustable Height and Washable Cover' and the page states 'Simply add or remove 2 inches easily with the detachable bottom', so height_adjustable=true. Item Dimensions (LxWxH) are published as 17.5 x 12 x 6 inches; the 6-inch height is the cushion thickness, converted 6 x 2.54 = 15.2 cm, so thickness_cm=15.2. No warranty years or adjustable-angle figure is published on the maker page, so none is recorded.",
+          "url": "https://comfilife.com/product/comfilife-foot-rest/"
+        },
+        {
+          "covers": [
+            "model_ref"
+          ],
+          "note": "Retailer technical listing used as supplement only, for the model reference: lists Item model number 38D, manufacturer ComfiLife, and product dimensions 44.45 x 30.48 x 15.24 cm, corroborating the maker's 6-inch (15.2 cm) thickness. All recorded specs themselves come from the manufacturer's own page above.",
+          "url": "https://www.desertcart.sc/products/295619830-comfilife-foot-rest-under-desk-for-office-use-adjustable-height.md"
+        }
+      ],
+      "model_ref": null,
+      "name": "ComfiLife Foot Rest",
+      "slug": "comfilife-foot-rest",
+      "sources": [
+        "https://comfilife.com/product/comfilife-foot-rest/",
+        "https://www.desertcart.sc/products/295619830-comfilife-foot-rest-under-desk-for-office-use-adjustable-height.md"
+      ],
+      "specs": {
+        "height_adjustable": true,
+        "thickness_cm": 15.2
+      },
+      "summary": "The ComfiLife Foot Rest is a memory-foam cushion for use under a desk, with a detachable lower section that adds or removes two inches of height. It can be flipped over to serve as a rocker, and its cover can be removed for machine washing. A non-slip underside helps it stay in place on the floor.",
+      "group": "g3",
+      "model_ref_note": "Maker does not publish a model reference on its product page; a retailer listing code exists but is not carried as manufacturer data."
+    },
+    {
+      "category": "usb-c-hubs",
+      "brand": "Anker",
+      "brand_slug": "anker",
+      "brand_website": "https://www.anker.com",
+      "name": "Anker 341 USB-C Hub (7-in-1)",
+      "model_ref": "A8346",
+      "slug": "anker-341-usb-c-hub-7-in-1-a8346",
+      "summary": "Anker's 341 is a compact travel hub that expands one USB-C port with USB-A and USB-C data, a single HDMI output and both SD and microSD readers. It is built around pass-through charging, so a separate USB-C charger powers the laptop through the hub while the other ports stay in use.",
+      "destination_url": "https://www.anker.com/products/a8346",
+      "specs": {
+        "usb_c_ports": 1,
+        "power_delivery_w": 100,
+        "usb_a_ports": 2,
+        "hdmi_ports": 1,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "max_video_resolution": "4K@30Hz",
+        "usb_data_speed_gbps": 5,
+        "ethernet_port": false,
+        "card_reader_sd": true,
+        "card_reader_microsd": true,
+        "displayport_outputs": 0,
+        "max_external_displays": 1
+      },
+      "evidence": [
+        {
+          "url": "https://www.anker.com/products/a8346",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "usb_data_speed_gbps",
+            "card_reader_sd",
+            "card_reader_microsd"
+          ],
+          "note": "Maker lists 2 USB-A data ports, 1 USB-C data port, 1 USB-C PD charging port, 1 HDMI, SD and microSD slots. usb_c_ports=1 counts only the USB-C data port; the separate PD-only charging port is excluded per the counting rule. PD: maker headlines up to 100W pass-through (minus 15W for hub operation; FAQ states 85W reaches the laptop) - recorded value is the published 100W pass-through rating. Data up to 5 Gbps. No safety listing is stated on the maker page, hence none/not_certified."
+        }
+      ],
+      "sources": [
+        "https://www.anker.com/products/a8346"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "usb-c-hubs",
+      "brand": "Anker",
+      "brand_slug": "anker",
+      "brand_website": "https://www.anker.com",
+      "name": "Anker 332 USB-C Hub (5-in-1)",
+      "model_ref": "A8355",
+      "slug": "anker-332-usb-c-hub-5-in-1-a8355",
+      "summary": "The Anker 332 is the smaller sibling in Anker's hub line, keeping only the essentials: one HDMI output, two USB-A ports and one USB-C data port. It suits a light travel kit where a single external display and basic peripherals are all that is needed, with charging passed through from a separate adapter.",
+      "destination_url": "https://www.anker.com/products/a8355",
+      "specs": {
+        "usb_c_ports": 1,
+        "power_delivery_w": 100,
+        "usb_a_ports": 2,
+        "hdmi_ports": 1,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "max_video_resolution": "4K@30Hz",
+        "usb_data_speed_gbps": 5,
+        "ethernet_port": false,
+        "card_reader_sd": false,
+        "card_reader_microsd": false,
+        "displayport_outputs": 0,
+        "max_external_displays": 1
+      },
+      "evidence": [
+        {
+          "url": "https://www.anker.com/products/a8355",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "usb_data_speed_gbps"
+          ],
+          "note": "Maker describes 5-in-1 connectivity as a 4K HDMI port, a 5 Gbps USB-C data port, two 5 Gbps USB-A ports and a 100W PD-IN port. usb_c_ports=1 counts only the data port; the PD-IN port is a charging input and is excluded. Recorded PD is the published 100W PD-IN rating (maker elsewhere states up to 85W reaches the host). The complete maker port list contains no Ethernet or card reader, hence false for those fields. No safety listing stated on the maker page."
+        }
+      ],
+      "sources": [
+        "https://www.anker.com/products/a8355"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "usb-c-hubs",
+      "brand": "Plugable",
+      "brand_slug": "plugable",
+      "brand_website": "https://plugable.com",
+      "name": "Plugable USB-C Hub 7-in-1",
+      "model_ref": "USBC-7IN1",
+      "slug": "plugable-usb-c-hub-7-in-1-usbc-7in1",
+      "summary": "Plugable's 7-in-1 hub is a driver-free travel adapter with three USB-A ports, one HDMI output and twin SD and microSD readers. Its only USB-C socket is a charging pass-through, a limitation Plugable states plainly in its own FAQ. It is aimed at hot-desking and classroom fleets where no driver install is possible.",
+      "destination_url": "https://plugable.com/products/usbc-7in1",
+      "specs": {
+        "usb_c_ports": 0,
+        "power_delivery_w": 100,
+        "usb_a_ports": 3,
+        "hdmi_ports": 1,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "max_video_resolution": "4K 60Hz",
+        "usb_data_speed_gbps": 5,
+        "ethernet_port": false,
+        "card_reader_sd": true,
+        "card_reader_microsd": true,
+        "displayport_outputs": 0,
+        "max_external_displays": 1
+      },
+      "evidence": [
+        {
+          "url": "https://plugable.com/products/usbc-7in1",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "usb_data_speed_gbps",
+            "card_reader_sd",
+            "card_reader_microsd",
+            "max_video_resolution"
+          ],
+          "note": "Maker technical specifications: three USB-A 3.0 ports at 5Gbps, one HDMI output up to 3840x2160 at 60Hz, SD and microSD readers, and USB-C PD pass-through with up to 100W input (up to 92W to host). Maker FAQ states the USB-C port is for PD pass-through charging only and does not support data, so usb_c_ports=0 per the counting rule. The maker's comparison table on the same page marks this model with no Ethernet port. No safety listing stated on the maker page."
+        }
+      ],
+      "sources": [
+        "https://plugable.com/products/usbc-7in1"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "usb-c-hubs",
+      "brand": "Belkin",
+      "brand_slug": "belkin",
+      "brand_website": "https://www.belkin.com",
+      "name": "Belkin Connect USB-C 6-in-1 Multiport Hub",
+      "model_ref": "AVC008",
+      "slug": "belkin-connect-usb-c-6-in-1-multiport-hub-avc008",
+      "summary": "Belkin's AVC008 is a compact multiport hub that adds the wired networking many slim hubs omit, alongside HDMI, two USB-A ports and an SD reader. Its single USB-C port handles both data and Power Delivery, keeping the body small. It is positioned for mobile work where an Ethernet jack matters as much as display output.",
+      "destination_url": "https://www.belkin.com/in/support-article?articleNum=337063",
+      "specs": {
+        "usb_c_ports": 1,
+        "power_delivery_w": 100,
+        "usb_a_ports": 2,
+        "hdmi_ports": 1,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "max_video_resolution": "4K 60Hz",
+        "usb_data_speed_gbps": 5,
+        "ethernet_port": true,
+        "ethernet_speed_mbps": 1000,
+        "card_reader_sd": true,
+        "card_reader_microsd": false,
+        "displayport_outputs": 0,
+        "max_external_displays": 1
+      },
+      "evidence": [
+        {
+          "url": "https://www.belkin.com/in/support-article?articleNum=337063",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "usb_data_speed_gbps",
+            "ethernet_port",
+            "ethernet_speed_mbps",
+            "card_reader_sd"
+          ],
+          "note": "Belkin official support specifications list: one 4K HDMI 1.4 port, two USB-A 3.0 ports, one Gigabit Ethernet port, one SD 3.0 card reader and one USB-C Data & Power Delivery 3.0 port, with PD passthrough at 100W and 5 Gbps bandwidth; the same page states the HDMI port supports up to 4K at 60Hz. usb_c_ports=1 because the single USB-C port is explicitly a data port as well as PD, not a PD-only input. No microSD reader appears in the complete list, hence false. No safety listing stated on this maker page."
+        }
+      ],
+      "sources": [
+        "https://www.belkin.com/in/support-article?articleNum=337063"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "usb-c-hubs",
+      "brand": "UGREEN",
+      "brand_slug": "ugreen",
+      "brand_website": "https://www.ugreen.com",
+      "name": "UGREEN Revodok Pro 108 8-in-1 USB-C Hub",
+      "model_ref": "75027",
+      "slug": "ugreen-revodok-pro-108-8-in-1-usb-c-hub-75027",
+      "summary": "The Revodok Pro 108 is UGREEN's faster travel hub, with 10Gbps USB-C and USB-A data ports, a 4K 60Hz HDMI output and SD and microSD readers that can be used at the same time. Charging is by pass-through from a separate adapter via its dedicated PD port. It targets users moving large files who do not need wired networking.",
+      "destination_url": "https://www.ugreen.com/en-au/products/au-75027",
+      "specs": {
+        "usb_c_ports": 2,
+        "power_delivery_w": 100,
+        "usb_a_ports": 2,
+        "hdmi_ports": 1,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "max_video_resolution": "4K@60Hz",
+        "usb_data_speed_gbps": 10,
+        "ethernet_port": false,
+        "card_reader_sd": true,
+        "card_reader_microsd": true,
+        "displayport_outputs": 0,
+        "max_external_displays": 1
+      },
+      "evidence": [
+        {
+          "url": "https://www.ugreen.com/en-au/products/au-75027",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "usb_data_speed_gbps",
+            "card_reader_sd",
+            "card_reader_microsd"
+          ],
+          "note": "Maker key features list 8-in-1 connectivity as a 4K@60Hz HDMI port, 2x 10Gbps USB-C data ports, 2x USB-A data ports, SD and microSD card readers and a 100W USB-C PD port; SKU 75027 in the maker specs table. usb_c_ports=2 counts the two data ports only; the separate PD port is excluded. Recorded PD is the published 100W PD port rating (maker states up to 85W pass-through reaches the laptop). The complete maker list contains no Ethernet port, hence false. No safety listing stated on the maker page."
+        }
+      ],
+      "sources": [
+        "https://www.ugreen.com/en-au/products/au-75027"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "docking-stations",
+      "brand": "CalDigit",
+      "brand_slug": "caldigit",
+      "brand_website": "https://www.caldigit.com",
+      "name": "CalDigit TS4 Thunderbolt Station 4",
+      "model_ref": "TS4",
+      "slug": "caldigit-ts4-thunderbolt-station-4",
+      "summary": "The TS4 is CalDigit's flagship Thunderbolt 4 dock, built around port density: eighteen ports including downstream Thunderbolt, 10Gbps USB in both shapes, DisplayPort, 2.5 Gigabit Ethernet and dual UHS-II card readers. A 230W supply lets it charge a laptop at up to 98W while powering everything attached. It is a fixed-desk dock, not a travel accessory.",
+      "destination_url": "https://www.caldigit.com/thunderbolt-station-4/",
+      "specs": {
+        "usb_c_ports": 5,
+        "power_delivery_w": 98,
+        "usb_a_ports": 5,
+        "hdmi_ports": 0,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "usb_data_speed_gbps": 10,
+        "ethernet_port": true,
+        "ethernet_speed_mbps": 2500,
+        "card_reader_sd": true,
+        "card_reader_microsd": true,
+        "displayport_outputs": 1,
+        "max_external_displays": 2
+      },
+      "evidence": [
+        {
+          "url": "https://www.caldigit.com/thunderbolt-station-4/",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "usb_data_speed_gbps",
+            "ethernet_port",
+            "ethernet_speed_mbps",
+            "card_reader_sd",
+            "card_reader_microsd",
+            "displayport_outputs"
+          ],
+          "note": "Maker interface list: 3x Thunderbolt 4 (40Gb/s), 3x USB-C (10Gb/s), 5x USB-A (10Gb/s), 1x DisplayPort 1.4, SD 4.0 UHS-II, microSD 4.0 UHS-II, 1x 2.5 Gigabit Ethernet and audio ports; power delivery to host up to 98W. Counting basis: usb_c_ports=5 = the 3 USB-C data ports plus the 2 downstream Thunderbolt 4 ports (USB-C form factor, usable for peripherals/data); the third Thunderbolt 4 port is the host uplink and is excluded. The complete interface list contains no HDMI socket, hence hdmi_ports=0. No safety listing stated on the maker page."
+        }
+      ],
+      "sources": [
+        "https://www.caldigit.com/thunderbolt-station-4/"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "docking-stations",
+      "brand": "Plugable",
+      "brand_slug": "plugable",
+      "brand_website": "https://plugable.com",
+      "name": "Plugable Triple Monitor USB-C Docking Station",
+      "model_ref": "UD-768PDZ",
+      "slug": "plugable-triple-monitor-usb-c-docking-station-ud-768pdz",
+      "summary": "The UD-768PDZ is a USB-C dock whose Silicon Motion graphics let it run three external monitors, including on base Apple Silicon Macs that normally allow only one, at the cost of a driver install and a 1080p ceiling per screen. Around that it provides five USB-A ports, a 10Gbps USB-C port, Gigabit Ethernet and an SD reader, powered by its own 170W adapter.",
+      "destination_url": "https://plugable.com/products/ud-768pdz",
+      "specs": {
+        "usb_c_ports": 1,
+        "power_delivery_w": 100,
+        "usb_a_ports": 5,
+        "hdmi_ports": 3,
+        "safety_certification_body": "UL",
+        "safety_certification_status": "verified_manufacturer_documentation",
+        "max_video_resolution": "1920x1080 @ 60Hz",
+        "usb_data_speed_gbps": 10,
+        "ethernet_port": true,
+        "ethernet_speed_mbps": 1000,
+        "card_reader_sd": true,
+        "card_reader_microsd": false,
+        "displayport_outputs": 0,
+        "max_external_displays": 3
+      },
+      "evidence": [
+        {
+          "url": "https://plugable.com/products/ud-768pdz",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "usb_data_speed_gbps",
+            "ethernet_port",
+            "card_reader_sd",
+            "max_video_resolution",
+            "max_external_displays",
+            "safety_certification_body"
+          ],
+          "note": "Maker specifications: 4x rear USB-A 3.0 (5Gbps), 1x front USB-A 3.2 Gen 2 (10Gbps), 1x front USB-C 3.2 Gen 2 (10Gbps) with 20W charging, 3x HDMI outputs each up to 1920x1080 @ 60Hz, Gigabit Ethernet (1000BASE-T), SD UHS-II card reader, and USB-C to host at 100W; the rear host USB-C port is excluded from usb_c_ports. The card reader table lists SD/SDHC/SDXC/MMC only, hence card_reader_microsd=false. Certification: the maker's own Power table on this page states the included power supply is 'UL 60950-1 Certified' - recorded as UL / verified_manufacturer_documentation on that basis; no certification file number is published."
+        }
+      ],
+      "sources": [
+        "https://plugable.com/products/ud-768pdz"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "docking-stations",
+      "brand": "Belkin",
+      "brand_slug": "belkin",
+      "brand_website": "https://www.belkin.com",
+      "name": "Belkin Connect Pro Thunderbolt 4 Dock",
+      "model_ref": "INC006",
+      "slug": "belkin-connect-pro-thunderbolt-4-dock-inc006",
+      "summary": "Belkin's Connect Pro is a twelve-port Thunderbolt 4 dock with two native HDMI outputs, which sets it apart from docks that force display adapters onto Thunderbolt ports. It adds an SD reader, Gigabit Ethernet and a front USB-C port, and charges the host at up to 90W from its 120W supply. Belkin positions it as a single-cable workstation dock for Mac and Windows laptops.",
+      "destination_url": "https://www.belkin.com/p/pro-thunderbolt-4-dock/P-INC006.html",
+      "specs": {
+        "usb_c_ports": 2,
+        "power_delivery_w": 90,
+        "usb_a_ports": 4,
+        "hdmi_ports": 2,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "max_video_resolution": "8K @ 30Hz",
+        "usb_data_speed_gbps": 10,
+        "ethernet_port": true,
+        "ethernet_speed_mbps": 1000,
+        "card_reader_sd": true,
+        "card_reader_microsd": false,
+        "displayport_outputs": 0,
+        "max_external_displays": 3
+      },
+      "evidence": [
+        {
+          "url": "https://www.belkin.com/p/pro-thunderbolt-4-dock/P-INC006.html",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "ethernet_port",
+            "card_reader_sd",
+            "max_video_resolution",
+            "max_external_displays"
+          ],
+          "note": "Maker product page: 12 ports include SD card reader, audio in/out, USB-C 3.1 Gen 2 port with PD 3.0, 2x Thunderbolt 4 ports, 2x HDMI 2.0 ports, Gigabit Ethernet, 2x USB-A 3.1 and 2x USB-A 2.0 ports; power delivery up to 90W; up to 8K @ 30Hz single display and triple display support for compatible laptops. Counting basis: usb_c_ports=2 = the USB-C 3.1 Gen 2 data port plus the one downstream Thunderbolt 4 port; the second Thunderbolt 4 port is the host uplink and is excluded. USB-C Gen 2 implies 10Gbps USB data (Thunderbolt link is 40Gbps). No microSD reader in the complete list, hence false. 'Thunderbolt 4 certified' on the page is an Intel technology certification, not a listed safety body, hence none/not_certified."
+        },
+        {
+          "url": "https://www.belkin.com/vn/support-article/?articleNum=318757",
+          "covers": [
+            "usb_a_ports",
+            "hdmi_ports",
+            "ethernet_port",
+            "power_delivery_w"
+          ],
+          "note": "Belkin official support FAQ for INC006 confirms the port split (front USB-C 3.1 Gen 2; rear two USB-A 3.1 and two USB-A 2.0; rear Thunderbolt 4 video port and two HDMI 2.0), a Gigabit Ethernet port and up to 90W laptop charging."
+        }
+      ],
+      "sources": [
+        "https://www.belkin.com/p/pro-thunderbolt-4-dock/P-INC006.html",
+        "https://www.belkin.com/vn/support-article/?articleNum=318757"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "docking-stations",
+      "brand": "Kensington",
+      "brand_slug": "kensington",
+      "brand_website": "https://www.kensington.com",
+      "name": "Kensington SD5700T Thunderbolt 4 Dual 4K Docking Station with 90W PD",
+      "model_ref": "SD5700T (K35175NA)",
+      "slug": "kensington-sd5700t-thunderbolt-4-docking-station",
+      "summary": "The SD5700T is Kensington's eleven-port Thunderbolt 4 dock, notable for holding its full 90W of laptop charging regardless of what else is connected. All video leaves via its three downstream Thunderbolt 4 ports, since there is no HDMI or DisplayPort socket. IT-oriented extras include DockWorks management software, mounting options and security slots.",
+      "destination_url": "https://www.Kensington.com/en-ca/p/products/connectivity/laptop-docks-usb-accessories/sd5700t-thunderbolt-4-dual-4k-docking-station-with-90w-pd/",
+      "specs": {
+        "usb_c_ports": 3,
+        "power_delivery_w": 90,
+        "usb_a_ports": 4,
+        "hdmi_ports": 0,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "max_video_resolution": "8K @ 60Hz",
+        "usb_data_speed_gbps": 10,
+        "ethernet_port": true,
+        "ethernet_speed_mbps": 1000,
+        "card_reader_sd": true,
+        "card_reader_microsd": false,
+        "displayport_outputs": 0,
+        "max_external_displays": 2
+      },
+      "evidence": [
+        {
+          "url": "https://www.Kensington.com/en-ca/p/products/connectivity/laptop-docks-usb-accessories/sd5700t-thunderbolt-4-dual-4k-docking-station-with-90w-pd/",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "ethernet_port",
+            "card_reader_sd",
+            "max_video_resolution",
+            "max_external_displays"
+          ],
+          "note": "Maker page: 11 ports comprising four Thunderbolt 4 ports (1 upstream host and 3 downstream, per the maker's specifications section), four USB-A ports (one front USB 2.0 charging port and three rear USB 3.2 Gen2 at 10Gbps), one Gigabit Ethernet port, one audio combo jack and one UHS-II SD 4.0 card reader; PD 3.0 at 90W of laptop charging; monitors supported: 2; maximum resolution field states Single 8K @ 60Hz or Dual 4K @ 60Hz via the Thunderbolt 4 ports. usb_c_ports=3 counts only the downstream Thunderbolt 4 ports; the upstream host port is excluded. No HDMI or DisplayPort socket and no microSD reader appear in the complete maker list, hence 0/false. No safety listing stated on the maker page."
+        }
+      ],
+      "sources": [
+        "https://www.Kensington.com/en-ca/p/products/connectivity/laptop-docks-usb-accessories/sd5700t-thunderbolt-4-dual-4k-docking-station-with-90w-pd/"
+      ],
+      "group": "g4"
+    },
+    {
+      "category": "docking-stations",
+      "brand": "Dell",
+      "brand_slug": "dell",
+      "brand_website": "https://www.dell.com",
+      "name": "Dell Thunderbolt Dock WD22TB4",
+      "model_ref": "WD22TB4",
+      "slug": "dell-thunderbolt-dock-wd22tb4",
+      "summary": "Dell's WD22TB4 is a modular Thunderbolt 4 dock for managed business fleets: its host connection module can be swapped to upgrade the dock instead of replacing it. It offers the widest native display mix here, with two DisplayPort outputs, HDMI and a multifunction USB-C display port, and charges Dell laptops at up to 130W. There is no card reader, reflecting its IT-deployment focus.",
+      "destination_url": "https://www.dell.com/support/manuals/en-tc/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us",
+      "specs": {
+        "usb_c_ports": 4,
+        "power_delivery_w": 130,
+        "usb_a_ports": 3,
+        "hdmi_ports": 1,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "usb_data_speed_gbps": 10,
+        "ethernet_port": true,
+        "ethernet_speed_mbps": 1000,
+        "card_reader_sd": false,
+        "card_reader_microsd": false,
+        "displayport_outputs": 2,
+        "max_external_displays": 4
+      },
+      "evidence": [
+        {
+          "url": "https://www.dell.com/support/manuals/en-tc/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us",
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "hdmi_ports",
+            "power_delivery_w",
+            "ethernet_port",
+            "displayport_outputs",
+            "max_external_displays"
+          ],
+          "note": "Dell official user guide specifications: USB Type-C ports are 1x USB 3.2 Gen2 Type-C, 2x Type-C with Thunderbolt 4 and 1x USB 3.2 Gen2 Type-C with DisplayPort 1.4 Alt Mode (= 4 downstream USB-C ports; the host connection is the dock's attached cable module and is not in this list); USB Type-A ports 2x USB 3.2 Gen1 plus 1x Gen1 with PowerShare (=3); video ports include 2x DisplayPort 1.4 and 1x HDMI 2.0; external displays supported up to 4; network is Gigabit Ethernet. Power delivery is stated as 130W to Dell systems and 90W to non-Dell systems with the 180W adapter - the recorded 130W is Dell's headline published rating, with the 90W non-Dell figure noted here. The complete specification list contains no SD or microSD reader, hence false for both. No safety listing stated in the maker specifications."
+        }
+      ],
+      "sources": [
+        "https://www.dell.com/support/manuals/en-tc/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "group": "g4"
+    },
+    {
+      "brand": "Anker",
+      "brand_slug": "anker",
+      "brand_website": "https://www.anker.com",
+      "category": "chargers-power-adapters",
+      "destination_url": "https://www.anker.com/nz/products/a2148",
+      "evidence": [
+        {
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "power_delivery_w",
+            "total_output_w",
+            "uses_gan"
+          ],
+          "note": "Manufacturer Specs section states Output 120W Max, 2 USB-C Ports, 1 USB-A Port, one-port charging USB-C 1/USB-C 2: 100W Max, and lists Anker GaNPrime GaN Technology.",
+          "url": "https://www.anker.com/nz/products/a2148"
+        },
+        {
+          "covers": [
+            "power_delivery_w",
+            "total_output_w",
+            "safety_certification_body",
+            "safety_certification_status"
+          ],
+          "note": "Anker service page confirms Total Output 120W Max and single-port USB-C output 20V/5A (100W Max). No UL, ETL, CSA, TUV, SGS, CE, UKCA or FCC safety certification for the charger is stated on the manufacturer product or service pages opened, so certification is recorded as none/not_certified.",
+          "url": "https://service.anker.com/product-description/a085g000004xGpZAAU?ref=Home_Page"
+        }
+      ],
+      "model_ref": "A2148",
+      "name": "Anker 737 Charger (GaNPrime 120W)",
+      "slug": "anker-737-charger-ganprime-120w-a2148",
+      "sources": [
+        "https://www.anker.com/nz/products/a2148",
+        "https://service.anker.com/product-description/a085g000004xGpZAAU?ref=Home_Page"
+      ],
+      "specs": {
+        "power_delivery_w": 100,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "total_output_w": 120,
+        "usb_a_ports": 1,
+        "usb_c_ports": 2,
+        "uses_gan": true
+      },
+      "summary": "A three-port GaNPrime wall charger built around two USB-C ports and one USB-A port, aimed at charging a laptop alongside a phone and tablet from a single outlet. Either USB-C port can deliver up to 100W on its own, while the unit shares a 120W ceiling across all connected devices.",
+      "group": "g5"
+    },
+    {
+      "brand": "Anker",
+      "brand_slug": "anker",
+      "brand_website": "https://www.anker.com",
+      "category": "chargers-power-adapters",
+      "destination_url": "https://www.anker.com/products/a2667",
+      "evidence": [
+        {
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "power_delivery_w",
+            "total_output_w"
+          ],
+          "note": "Manufacturer Specs state Single Port Output USB-C 1 (65W Max) / USB-C 2 (65W Max) / USB-A (22.5W Max), with dual- and triple-port splits that stay within the charger's 65W rating given in the product name; the page describes GaN II technology in the product copy (full text seen on the CA variant of the same page).",
+          "url": "https://www.anker.com/products/a2667"
+        },
+        {
+          "covers": [
+            "safety_certification_body",
+            "safety_certification_status"
+          ],
+          "note": "No safety-certification body from the controlled vocabulary is stated on the manufacturer product page opened, so certification is recorded as none/not_certified.",
+          "url": "https://www.anker.com/products/a2667"
+        }
+      ],
+      "model_ref": "A2667",
+      "name": "Anker 735 Charger (Nano II 65W)",
+      "slug": "anker-735-charger-nano-ii-65w-a2667",
+      "sources": [
+        "https://www.anker.com/products/a2667"
+      ],
+      "specs": {
+        "power_delivery_w": 65,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "total_output_w": 65,
+        "usb_a_ports": 1,
+        "usb_c_ports": 2,
+        "uses_gan": true
+      },
+      "summary": "A compact three-port charger using GaN II technology, with two USB-C ports and one USB-A port in a pocketable body. A single USB-C connection can supply up to 65W for a USB-C laptop, and the charger redistributes its 65W total when two or three devices are attached.",
+      "group": "g5"
+    },
+    {
+      "brand": "UGREEN",
+      "brand_slug": "ugreen",
+      "brand_website": "https://www.ugreen.com",
+      "category": "chargers-power-adapters",
+      "destination_url": "https://eu.ugreen.com/en-pl/products/ugreen-nexode-100w-usb-c-wall-charger",
+      "evidence": [
+        {
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "power_delivery_w",
+            "total_output_w",
+            "uses_gan"
+          ],
+          "note": "Manufacturer spec table (SKU 40747, the CD226 charger) states USB-C1/C2 output up to 100W Max with PD 3.0/PPS, USB-C3 and USB-A at 22.5W max, Wattage 100 watts, 4 total USB ports; the comparison table on the same page confirms 3 x USB-C + 1 x USB-A and GaN positioning in the product title.",
+          "url": "https://eu.ugreen.com/en-pl/products/ugreen-nexode-100w-usb-c-wall-charger"
+        },
+        {
+          "covers": [
+            "safety_certification_body",
+            "safety_certification_status"
+          ],
+          "note": "The page lists fire-protection class UL94-V0, which is a material flammability rating and not a UL/ETL safety certification of the charger; no certification body from the controlled vocabulary is claimed for the charger itself, so certification is recorded as none/not_certified.",
+          "url": "https://eu.ugreen.com/en-pl/products/ugreen-nexode-100w-usb-c-wall-charger"
+        }
+      ],
+      "model_ref": "CD226",
+      "name": "UGREEN Nexode 100W GaN Charger",
+      "slug": "ugreen-nexode-100w-gan-charger-cd226",
+      "sources": [
+        "https://eu.ugreen.com/en-pl/products/ugreen-nexode-100w-usb-c-wall-charger"
+      ],
+      "specs": {
+        "power_delivery_w": 100,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "total_output_w": 100,
+        "usb_a_ports": 1,
+        "usb_c_ports": 3,
+        "uses_gan": true
+      },
+      "summary": "A four-port GaN wall charger with three USB-C ports and one USB-A port, sized for a laptop plus phones and accessories. Its first two USB-C ports can each reach 100W when used alone, with the full 100W shared across ports as more devices are connected.",
+      "group": "g5"
+    },
+    {
+      "brand": "Belkin",
+      "brand_slug": "belkin",
+      "brand_website": "https://www.belkin.com",
+      "category": "chargers-power-adapters",
+      "destination_url": "https://www.belkin.com/p/4-port-gan-charger-108w/WCH010dqWH.html",
+      "evidence": [
+        {
+          "covers": [
+            "usb_c_ports",
+            "usb_a_ports",
+            "total_output_w",
+            "uses_gan"
+          ],
+          "note": "Manufacturer product page states 2x USB-C and 2x USB-A ports, 108W of total power output, integrated GaN technology and USB-C PD 3.0.",
+          "url": "https://www.belkin.com/p/4-port-gan-charger-108w/P-WCH010.html"
+        },
+        {
+          "covers": [
+            "power_delivery_w",
+            "total_output_w",
+            "safety_certification_body",
+            "safety_certification_status"
+          ],
+          "note": "Belkin's official FAQ for WCH010 states total power output 108W and single USB-C port output up to 20.5V/4.7A (96.35W), published by Belkin as up to 96W per port. The FAQ's only certification mention is MFi, which is not in the controlled body vocabulary, and no UL/ETL/CSA/TUV/SGS/CE/UKCA/FCC safety certification is stated, so certification is recorded as none/not_certified.",
+          "url": "https://www.belkin.com/tw/en/support-article/?articleNum=318949"
+        }
+      ],
+      "model_ref": "WCH010",
+      "name": "Belkin BoostCharge Pro 4-Port GaN Charger 108W",
+      "slug": "belkin-boostcharge-pro-4-port-gan-charger-108w-wch010",
+      "sources": [
+        "https://www.belkin.com/p/4-port-gan-charger-108w/WCH010dqWH.html",
+        "https://www.belkin.com/tw/en/support-article/?articleNum=318949"
+      ],
+      "specs": {
+        "power_delivery_w": 96,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "total_output_w": 108,
+        "usb_a_ports": 2,
+        "usb_c_ports": 2,
+        "uses_gan": true
+      },
+      "summary": "A desktop-style GaN charger with two USB-C and two USB-A ports on a 2-metre power cord, designed to sit on a desk rather than hang from an outlet. It delivers up to 96W from a single USB-C port for a laptop and shares 108W in total across up to four devices using Intelligent Power Sharing.",
+      "group": "g5"
+    },
+    {
+      "brand": "Anker",
+      "brand_slug": "anker",
+      "brand_website": "https://www.anker.com",
+      "category": "chargers-power-adapters",
+      "destination_url": "https://www.anker.com/eu-en/products/a2341",
+      "evidence": [
+        {
+          "covers": [
+            "power_delivery_w",
+            "total_output_w",
+            "usb_c_ports"
+          ],
+          "note": "Anker service page for A2341 lists a single output specification set, 5V/9V/15V/20V/28V up to 5A (140W Max), with PD and PPS charging technology, consistent with the single USB-C port design; the linked A2341 user manual describes achieving max power from a single port.",
+          "url": "https://service.anker.com/product-description/a085g000004zRHiAAM/anker-717-charger-140w?ref=Home_Page"
+        },
+        {
+          "covers": [
+            "uses_gan",
+            "safety_certification_body",
+            "safety_certification_status"
+          ],
+          "note": "Manufacturer product page presents the 717 as a GaNPrime-series charger with a 140W max output and Power Delivery 3.1 compatibility. No safety-certification body from the controlled vocabulary is stated on the manufacturer pages opened, so certification is recorded as none/not_certified.",
+          "url": "https://www.anker.com/eu-en/products/a2341"
+        }
+      ],
+      "model_ref": "A2341",
+      "name": "Anker 717 Charger (140W)",
+      "slug": "anker-717-charger-140w-a2341",
+      "sources": [
+        "https://www.anker.com/eu-en/products/a2341",
+        "https://service.anker.com/product-description/a085g000004zRHiAAM/anker-717-charger-140w?ref=Home_Page"
+      ],
+      "specs": {
+        "power_delivery_w": 140,
+        "safety_certification_body": "none",
+        "safety_certification_status": "not_certified",
+        "total_output_w": 140,
+        "usb_a_ports": 0,
+        "usb_c_ports": 1,
+        "uses_gan": true
+      },
+      "summary": "A single-port GaNPrime charger built for high-power USB-C laptops, delivering up to 140W through USB Power Delivery 3.1, including the 28V profile used by the 16-inch MacBook Pro. It trades multi-port flexibility for maximum single-device speed in a body notably smaller than Apple's own 140W adapter.",
+      "group": "g5"
+    },
+    {
+      "brand": "Apple",
+      "brand_slug": "apple",
+      "brand_website": "https://www.apple.com",
+      "category": "cables-adapters",
+      "destination_url": "https://www.apple.com/shop/product/mw5j3am/a/thunderbolt-4-usb%E2%80%91c-pro-cable-18-m",
+      "evidence": [
+        {
+          "covers": [
+            "cable_length_m",
+            "power_delivery_w",
+            "data_transfer_gbps",
+            "braided",
+            "connector_type"
+          ],
+          "note": "Apple's product page overview states this 1.8-meter cable features a black braided design, supports Thunderbolt 3, Thunderbolt 4 and USB 4 data transfer up to 40Gb/s, and charging up to 100W; it is a USB-C to USB-C cable.",
+          "url": "https://www.apple.com/shop/product/mw5j3am/a/thunderbolt-4-usb%E2%80%91c-pro-cable-18-m"
+        }
+      ],
+      "model_ref": "MW5J3AM/A",
+      "name": "Apple Thunderbolt 4 (USB-C) Pro Cable (1.8 m)",
+      "slug": "apple-thunderbolt-4-pro-cable-1-8m",
+      "sources": [
+        "https://www.apple.com/shop/product/mw5j3am/a/thunderbolt-4-usb%E2%80%91c-pro-cable-18-m"
+      ],
+      "specs": {
+        "braided": true,
+        "cable_length_m": 1.8,
+        "connector_type": "USB-C to USB-C",
+        "data_transfer_gbps": 40,
+        "power_delivery_w": 100
+      },
+      "summary": "Apple's 1.8-metre Thunderbolt 4 Pro cable pairs full 40Gb/s Thunderbolt and USB4 data transfer with DisplayPort video and up to 100W of charging. Its black braided jacket is designed to coil without tangling, making it a desk cable for connecting Macs to displays, docks and fast storage.",
+      "group": "g5"
+    },
+    {
+      "brand": "CalDigit",
+      "brand_slug": "caldigit",
+      "brand_website": "https://www.caldigit.com",
+      "category": "cables-adapters",
+      "destination_url": "https://www.caldigit.com/thunderbolt-4-usb-4-cable/",
+      "evidence": [
+        {
+          "covers": [
+            "cable_length_m",
+            "power_delivery_w",
+            "data_transfer_gbps",
+            "connector_type"
+          ],
+          "note": "Manufacturer page's Technical Specifications table lists the 0.8m variant with Max. Performance 40Gb/s and Power Delivery Ability 100 Watts (20 Volts @ 5 Amps), for use with USB-C devices over a USB-C connector.",
+          "url": "https://www.caldigit.com/thunderbolt-4-usb-4-cable/"
+        }
+      ],
+      "model_ref": "Thunderbolt 4 Cable 0.8m",
+      "name": "CalDigit Thunderbolt 4 Cable (0.8m)",
+      "slug": "caldigit-thunderbolt-4-cable-0-8m",
+      "sources": [
+        "https://www.caldigit.com/thunderbolt-4-usb-4-cable/"
+      ],
+      "specs": {
+        "cable_length_m": 0.8,
+        "connector_type": "USB-C to USB-C",
+        "data_transfer_gbps": 40,
+        "power_delivery_w": 100
+      },
+      "summary": "CalDigit's short 0.8-metre Thunderbolt 4 cable is aimed at dock and desktop setups where excess cable is clutter. It carries up to 40Gb/s across Thunderbolt 4, Thunderbolt 3 and USB4, and supplies up to 100W of power delivery, with E-Marker chips at both ends managing safe power negotiation.",
+      "group": "g5"
+    },
+    {
+      "brand": "Belkin",
+      "brand_slug": "belkin",
+      "brand_website": "https://www.belkin.com",
+      "category": "cables-adapters",
+      "destination_url": "https://www.belkin.com/p/usb-c-to-usb-c-cable-240w/CAB015bt1MWH.html",
+      "evidence": [
+        {
+          "covers": [
+            "cable_length_m",
+            "power_delivery_w",
+            "data_transfer_gbps",
+            "braided",
+            "connector_type"
+          ],
+          "note": "Belkin's official CAB015 page states support for up to 240W Power Delivery fast charging, high-speed data transfers up to 480 Mbps on the USB 2.0 standard, a nylon braided design, and variants CAB015bt1MWH/CAB015bt1MBK at 3.3 ft / 1 m. The cable is USB-IF certified per Belkin, but USB-IF is outside the safety-certification body vocabulary, so no certification trio is recorded.",
+          "url": "https://www.belkin.com/au/support-article/?articleNum=335763"
+        }
+      ],
+      "model_ref": "CAB015bt1MWH",
+      "name": "Belkin BoostCharge USB-C to USB-C Cable 240W (1m)",
+      "slug": "belkin-boostcharge-usb-c-to-usb-c-cable-240w-1m-cab015",
+      "sources": [
+        "https://www.belkin.com/p/usb-c-to-usb-c-cable-240w/CAB015bt1MWH.html",
+        "https://www.belkin.com/au/support-article/?articleNum=335763"
+      ],
+      "specs": {
+        "braided": true,
+        "cable_length_m": 1,
+        "connector_type": "USB-C to USB-C",
+        "data_transfer_gbps": 0.48,
+        "power_delivery_w": 240
+      },
+      "summary": "Belkin's braided 240W cable is a charging-first USB-C lead built for PD 3.1 Extended Power Range devices, including high-wattage gaming laptops. In its 1-metre form it pairs that 240W ceiling with USB 2.0 data transfer, dual E-Marker chips and over-temperature protection.",
+      "group": "g5"
+    },
+    {
+      "brand": "Belkin",
+      "brand_slug": "belkin",
+      "brand_website": "https://www.belkin.com",
+      "category": "cables-adapters",
+      "destination_url": "https://www.belkin.com/uk/support-article/?articleNum=337166",
+      "evidence": [
+        {
+          "covers": [
+            "cable_length_m",
+            "power_delivery_w",
+            "braided"
+          ],
+          "note": "Belkin's official CAB025 page states 240W Power Delivery, a 95% PCR PET braided exterior, and available lengths including 3.28 ft / 1M.",
+          "url": "https://www.belkin.com/uk/support-article/?articleNum=337166"
+        },
+        {
+          "covers": [
+            "data_transfer_gbps",
+            "connector_type",
+            "power_delivery_w"
+          ],
+          "note": "Belkin's official CAB025 FAQ confirms a USB-C to USB-C connector, maximum power up to 240W (48V/5A), and USB 2.0 data transfer speeds up to 480 Mbps. It also states the cable is USB-IF certified; USB-IF is outside the safety-certification body vocabulary, so no certification trio is recorded.",
+          "url": "https://www.belkin.com/uk/support-article/?articleNum=337162"
+        }
+      ],
+      "model_ref": "CAB025",
+      "name": "Belkin BoostCharge Eco USB-C to USB-C Braided Cable 240W (1m)",
+      "slug": "belkin-boostcharge-eco-usb-c-to-usb-c-cable-240w-1m-cab025",
+      "sources": [
+        "https://www.belkin.com/uk/support-article/?articleNum=337166",
+        "https://www.belkin.com/uk/support-article/?articleNum=337162"
+      ],
+      "specs": {
+        "braided": true,
+        "cable_length_m": 1,
+        "connector_type": "USB-C to USB-C",
+        "data_transfer_gbps": 0.48,
+        "power_delivery_w": 240
+      },
+      "summary": "Belkin's Eco variant wraps a 240W-capable USB-C cable in braiding made largely from recycled PET, with recycled material in the connector housings as well. The 1-metre version still covers everyday syncing over USB 2.0 while fast-charging laptops, tablets and phones at up to 240W.",
+      "group": "g5"
+    },
+    {
+      "brand": "UGREEN",
+      "brand_slug": "ugreen",
+      "brand_website": "https://www.ugreen.com",
+      "category": "cables-adapters",
+      "destination_url": "https://www.ugreen.com/en-sg/products/sg-70427",
+      "evidence": [
+        {
+          "covers": [
+            "cable_length_m",
+            "power_delivery_w",
+            "data_transfer_gbps",
+            "braided",
+            "connector_type"
+          ],
+          "note": "Manufacturer page titled 'UGREEN Cable USB-C 100W 2M Braided' (SKU sg-70427) states Max 100W Power Delivery at 20V 5A, transfer speed up to 480Mbps (USB 2.0), a durable nylon braided cable, and a Specs table with Data transfer rate 480 Megabits Per Second and Male-to-Male USB Type C connectors.",
+          "url": "https://www.ugreen.com/en-sg/products/sg-70427"
+        }
+      ],
+      "model_ref": "70427",
+      "name": "UGREEN USB-C to USB-C Cable 100W Braided (2m)",
+      "slug": "ugreen-usb-c-to-usb-c-cable-100w-2m-70427",
+      "sources": [
+        "https://www.ugreen.com/en-sg/products/sg-70427"
+      ],
+      "specs": {
+        "braided": true,
+        "cable_length_m": 2,
+        "connector_type": "USB-C to USB-C",
+        "data_transfer_gbps": 0.48,
+        "power_delivery_w": 100
+      },
+      "summary": "UGREEN's 2-metre braided cable is a long-reach charging lead for USB-C laptops and phones, rated for up to 100W at 20V/5A with an E-Mark chip for safe high-current delivery. Data duties are handled at USB 2.0 speed, and the nylon braid and aluminium housings are built for frequent daily plugging and unplugging.",
+      "group": "g5"
+    },
+    {
+      "brand": "Lamicall",
+      "brand_slug": "lamicall",
+      "brand_website": "https://lamicallshop.com/",
+      "category": "device-stands-holders",
+      "destination_url": "https://lamicallshop.com/products/lamicall-ultra-thin-foldable-cell-phone-stand-for-desk",
+      "evidence": [
+        {
+          "covers": [
+            "device_type",
+            "adjustable_angle",
+            "foldable",
+            "model_ref"
+          ],
+          "note": "Manufacturer's own product page (Model Number: LAM-STDP03-Black). Device type: page states 'Universal desk cell phone stand works for tablets and phones between 4-8 inches' and lists iPad mini among compatible devices, so device_type is phone-or-tablet. Adjustable angle: 'Height & Angle Adjustable - ... it allows you to adjust the back plate up to 180 degrees and the base up to 90 degrees, while the height extends up to 4.3 inches.' Foldable: product is named 'Foldable' and the page describes it as '40% thinner than previous model when folded'. Non-charging stand, so no USB-C, power-delivery or charging-certification specs apply.",
+          "url": "https://lamicallshop.com/products/lamicall-ultra-thin-foldable-cell-phone-stand-for-desk"
+        }
+      ],
+      "model_ref": "LAM-STDP03-Black",
+      "name": "Lamicall Ultra-Thin Foldable Cell Phone Stand for Desk",
+      "slug": "lamicall-ultra-thin-foldable-cell-phone-stand-for-desk",
+      "sources": [
+        "https://lamicallshop.com/products/lamicall-ultra-thin-foldable-cell-phone-stand-for-desk"
+      ],
+      "specs": {
+        "adjustable_angle": true,
+        "device_type": "phone-or-tablet",
+        "foldable": true
+      },
+      "summary": "A slim desk stand from Lamicall that folds flat for carrying in a pocket or bag and uses a weighted metal base to stay put on the desk. Its dual-pivot design adjusts both height and viewing angle, and the maker states it works with phones and tablets between 4 and 8 inches, including phones in thick cases.",
+      "group": "g6"
+    },
+    {
+      "brand": "Tripp Lite",
+      "brand_slug": "tripp-lite",
+      "brand_website": "https://tripplite.eaton.com/",
+      "category": "power-strips-surge-protectors",
+      "destination_url": "https://brd.tripplite.com/protect-it-6-outlet-surge-protector-6-ft-cord-790-joules-diagnostic-led~TLP606",
+      "evidence": [
+        {
+          "covers": [
+            "surge_rating_joules",
+            "ac_outlets",
+            "cable_length_m",
+            "safety_certification_body",
+            "safety_certification_status",
+            "model_ref"
+          ],
+          "note": "Eaton / Tripp Lite manufacturer's product page for Part Number TLP606 (URL slug retains an older '790 joules' string, but the current page content and specification table state 900 joules throughout). Surge rating: '900-joule surge protection rating' and Specifications 'AC Suppression Joule Rating | 900'. Outlets: '6 NEMA 5-15R outlets' and Output Receptacles '(6) 5-15R'. Cord: Specifications 'Input Cord Length (ft.) | 6' — converted 6 ft x 0.3048 = 1.8288 m, recorded as 1.83 m (maker prose also describes it as a 'six-foot (1.8-meter) AC power cord'). Certification: Specifications 'Product Certifications | ... UL 1363; UL 1449; UL Listed; cUL Listed' and 'Conforms to current UL 1449 5th Edition safety standards' — body UL, status verified_manufacturer_documentation because the listing is stated in the manufacturer's own specification; no certifier file number is published on the page, so no certification ID is included. No USB ports are listed for this model, so usb_c_ports and power_delivery_w are omitted.",
+          "url": "https://brd.tripplite.com/protect-it-6-outlet-surge-protector-6-ft-cord-790-joules-diagnostic-led~TLP606"
+        },
+        {
+          "covers": [
+            "surge_rating_joules",
+            "ac_outlets",
+            "cable_length_m",
+            "safety_certification_body"
+          ],
+          "note": "Corroborating Eaton Tripp Lite page for Catalog Number TLP606: 'surge suppression rating of 900 joules', 'The 6 Foot cord', 'Total Outlets | 6', 'AC Suppression Joule Rating | 900', 'Cord Length | 6 Foot', and Certifications 'UL Listed, cUL Listed, UL 1449, CSA Std. C22.2'.",
+          "url": "https://tripplite.eaton.com/support/tlp606"
+        }
+      ],
+      "model_ref": "TLP606",
+      "name": "Tripp Lite series Protect It! 6-Outlet Surge Protector, 6 ft. Cord, 900 Joules, Diagnostic LED, Light Gray Housing",
+      "slug": "tripp-lite-protect-it-6-outlet-surge-protector-tlp606",
+      "sources": [
+        "https://brd.tripplite.com/protect-it-6-outlet-surge-protector-6-ft-cord-790-joules-diagnostic-led~TLP606",
+        "https://tripplite.eaton.com/support/tlp606"
+      ],
+      "specs": {
+        "ac_outlets": 6,
+        "cable_length_m": 1.83,
+        "safety_certification_body": "UL",
+        "safety_certification_status": "verified_manufacturer_documentation",
+        "surge_protection": true,
+        "surge_rating_joules": 900
+      },
+      "summary": "A six-outlet corded surge protector in Eaton's Tripp Lite Protect It! series, intended for home or office workstations. The maker's specification lists a 900-joule AC suppression rating, EMI/RFI filtering, a 15A resettable circuit breaker and a diagnostic LED, with one end outlet spaced for a bulky transformer.",
+      "group": "g6"
+    },
+    {
+      "brand": "tomtoc",
+      "brand_slug": "tomtoc",
+      "brand_website": "https://www.tomtoc.com/",
+      "category": "cases-sleeves-protection",
+      "destination_url": "https://www.tomtoc.com/products/360-protective-sleeve-13-inch-macbook-air-pro",
+      "evidence": [
+        {
+          "covers": [
+            "device_type",
+            "max_device_size_in",
+            "material",
+            "drop_protection_rated",
+            "model_ref"
+          ],
+          "note": "Manufacturer's own product page, SKU: A13C2D1, Name: 'Defender-A13 Laptop Sleeve for 13 inch MacBook Air/Pro'. Size/fit: 'Size: 13-inch for New MacBook Air & Pro' and 'Perfectly Compatible With: 13-inch MacBook Air ... 13-inch MacBook Pro ...', so device_type is laptop and max_device_size_in is 13. Material: page states 'Spill-resistant recycled fabric with PFAS-free treatment', recorded as recycled fabric in the maker's own wording (the page does not name a specific fibre such as polyester for this model). Drop rating: the page says 'Military-Grade CornerArmor Protection' and 'Military-Standard drop-tested protection' but publishes no specific drop-test standard number or drop height on the page, so per the brief's rule drop_protection_rated is false.",
+          "url": "https://www.tomtoc.com/products/360-protective-sleeve-13-inch-macbook-air-pro"
+        }
+      ],
+      "model_ref": "A13C2D1",
+      "name": "tomtoc 13 Inch MacBook Air/Pro Sleeve 360° Protective, Defender-A13",
+      "slug": "tomtoc-defender-a13-360-protective-laptop-sleeve-13-inch",
+      "sources": [
+        "https://www.tomtoc.com/products/360-protective-sleeve-13-inch-macbook-air-pro"
+      ],
+      "specs": {
+        "device_type": "laptop",
+        "drop_protection_rated": false,
+        "material": "recycled fabric",
+        "max_device_size_in": 13
+      },
+      "summary": "A fitted laptop sleeve in tomtoc's Defender-A13 line, sized for 13-inch MacBook Air and MacBook Pro models and also listed for some 13-inch Surface devices. It combines CornerArmor corner padding with a soft lining, a front pocket for chargers and accessories, and a spill-resistant recycled fabric shell with YKK zippers.",
+      "group": "g6"
+    }
+  ],
+  "rejected": [
+    {
+      "candidate": "IKEA MALM desk, white, 140x65 cm (602.141.59)",
+      "reason": "Dimensions and max load verified on the manufacturer page (Width 140 cm, Depth 65 cm, Max. load 50 kg), but no warranty/guarantee years are published on the maker product page and MALM does not appear in IKEA's office furniture guarantee brochure, so warranty_years could not be verified from the manufacturer.",
+      "group": "g1"
+    },
+    {
+      "candidate": "IKEA MICKE desk, 105x50 cm",
+      "reason": "Dimensions and max load are published by the maker (105 cm, 50 cm, 50 kg), but no warranty/guarantee years could be found in manufacturer documentation for MICKE, so the candidate fails the warranty evidence rule.",
+      "group": "g1"
+    },
+    {
+      "candidate": "IKEA LAGKAPTEN / ADILS desk, white, 140x60 cm (594.171.53)",
+      "reason": "Manufacturer page verifies Length 140 cm, Width 60 cm and Max. load 50 kg, but no warranty/guarantee years are published by the maker for this product line, so warranty_years is unverifiable.",
+      "group": "g1"
+    },
+    {
+      "candidate": "IKEA TOMMARYD table, white, 130x70 cm",
+      "reason": "Covered by the 10-year office guarantee brochure and dimensions are published (Length 130 cm, Width 70 cm), but the manufacturer product page publishes no maximum load, so the required max_load_kg could not be verified.",
+      "group": "g1"
+    },
+    {
+      "candidate": "Sauder Affirm 60 x 36 Bowfront Executive Desk, Hudson Elm (427428)",
+      "reason": "Manufacturer page publishes overall dimensions and a 5-year limited warranty, but no maximum load figure was found in the manufacturer documentation consulted, so max_load_kg is unverifiable from the maker.",
+      "group": "g1"
+    },
+    {
+      "candidate": "FlexiSpot E7 / E7 Pro",
+      "reason": "Sold as a frame with multiple desktop sizes, so there is no single manufacturer-published width/depth for one complete desk configuration in the static product copy; published load figures also conflict across maker documents consulted (355 lb on product pages versus a 160 kg table in the manual). Rejected for ambiguous required specs rather than choosing one figure arbitrarily.",
+      "group": "g1"
+    },
+    {
+      "candidate": "IKEA UTESPELARE gaming desk",
+      "reason": "Excluded per the brief's scope note (gaming desk, avoid); not researched as a candidate.",
+      "group": "g1"
+    },
+    {
+      "candidate": "BenQ PianoLight",
+      "reason": "BenQ's own lamp comparison table lists its Luminous Flux as 'NA' — the manufacturer publishes no lumen figure, so the required manufacturer-published brightness_lumens cannot be evidenced.",
+      "group": "g2"
+    },
+    {
+      "candidate": "BenQ MindDuo 2",
+      "reason": "The current model's manufacturer spec page publishes only Center Illuminance (1400 lux) and no luminous flux in lumens; lux-only evidence fails the category rule. (Lumen figures exist only for the earlier MindDuo generation in a legacy comparison table with conflicting colour-temperature ranges, so generations were not conflated.)",
+      "group": "g2"
+    },
+    {
+      "candidate": "IKEA desk lamps (e.g. NÄVLINGE, HÅRTE)",
+      "reason": "IKEA publishes luminous flux for these lamps (e.g. 220 lm / 150 lm), but no manufacturer-published warranty period in years — the HÅRTE page states only that quality assurance follows IKEA's quality policy — so required warranty_years cannot be evidenced.",
+      "group": "g2"
+    },
+    {
+      "candidate": "TaoTronics desk lamps (e.g. TT-DL11, TT-DL27)",
+      "reason": "Lumen and warranty figures were found only on retailer listings and third-party manual mirrors; no verifiable product/spec page on the manufacturer's own site (taotronics.com) could be opened, so required specs are not traceable to manufacturer evidence.",
+      "group": "g2"
+    },
+    {
+      "candidate": "OttLite Perform LED Clamp Lamp (CS49602C-SHPR)",
+      "reason": "The ottlite.com product page publishes brightness levels, colour modes, and the 2-year warranty but no lumen output figure, so manufacturer-published brightness_lumens cannot be evidenced.",
+      "group": "g2"
+    },
+    {
+      "candidate": "BenQ ScreenBar lumen figures from ICEcat/retailer spec sheets (e.g. 930 lm)",
+      "reason": "Not manufacturer-published and inconsistent with BenQ's own comparison table (220-320 lm depending on colour temperature); the 930 figure matches the bar's published center illuminance in lux, i.e. an apparent lux/lumen mix-up. Rejected as an evidence source; the accepted ScreenBar entry uses BenQ's own table only.",
+      "group": "g2"
+    },
+    {
+      "candidate": "Rain Design mStand (raindesigninc.com/products/mstand)",
+      "reason": "Manufacturer page opened directly publishes only Width 10 in, Height 5.9 in, Depth 7.5 in and Weight 3 lb. It states no rated maximum load anywhere and gives no numeric maximum laptop size (only 'Fits all MacBooks and compatible with most notebooks'; an FAQ notes a 16-inch MacBook Pro sits on it). Required max_load_kg (and a maker-stated max_laptop_size_in) cannot be verified, so rejected as briefed.",
+      "group": "g3"
+    },
+    {
+      "candidate": "Lamicall Adjustable Laptop Stand (model LN09)",
+      "reason": "No rated maximum load could be found in the manufacturer/retailer materials reviewed for this model (compatibility 10-17.3 in and adjustable height/angle are stated, but no load capacity is published), so required max_load_kg cannot be verified. Rejected.",
+      "group": "g3"
+    },
+    {
+      "candidate": "Humanscale FM300 Foot Machine footrest",
+      "reason": "A current manufacturer product page on humanscale.com could not be retrieved, and warranty figures conflict across secondary sources (15-year limited vs limited lifetime), with the model also renamed FR300 in current listings. Specs could not be verified cleanly from the maker's own current page, so not accepted; ComfiLife Foot Rest was used instead with height/thickness verified on comfilife.com.",
+      "group": "g3"
+    },
+    {
+      "candidate": "Everlasting Comfort Foot Rest for Under Desk",
+      "reason": "No manufacturer product page publishing dimensions could be retrieved (dimensions appear only in retailer listings and manual mirrors), so thickness could not be traced to the maker's own page. Not accepted.",
+      "group": "g3"
+    },
+    {
+      "candidate": "UGREEN Revodok (generic, no model)",
+      "reason": "No single model or SKU exists under the generic name - UGREEN sells multiple Revodok variants with different port counts and speeds, so required specs could not be tied to one product. Substituted with the specific Revodok Pro 108, SKU 75027, whose maker page publishes a complete port list.",
+      "group": "g4"
+    },
+    {
+      "candidate": "Anker 777 Thunderbolt Docking Station",
+      "reason": "Not opened or verified against Anker's own product page during this research run, so it was excluded rather than recorded without primary manufacturer evidence. Substituted with the Dell WD22TB4, verified from Dell's official user guide specifications.",
+      "group": "g4"
+    },
+    {
+      "candidate": "Plugable USBC-7IN1E (7-in-1 Hub with Ethernet)",
+      "reason": "Verified on Plugable's site but it is a near-duplicate Ethernet variant of the already-selected USBC-7IN1 hub; not counted as a separate product to keep the five hubs distinct.",
+      "group": "g4"
+    },
+    {
+      "candidate": "Anker 643 USB-C to USB-C Cable (Flow, Silicone) — A8552/3",
+      "reason": "Manufacturer product page (anker.com/products/a8552) was opened in full: it publishes 100W charging and 3 ft / 0.9 m and 6 ft / 1.8 m lengths but publishes NO data transfer rate anywhere on the page. Per the brief, a cable whose maker publishes no data rate must be rejected.",
+      "group": "g5"
+    },
+    {
+      "candidate": "Anker 765 USB-C to USB-C Cable (240W candidate) — A8866",
+      "reason": "Manufacturer product page opened (anker.com/au/products/a8866) currently lists the 765 as a 140W Nylon cable, conflicting with the 240W candidate naming, and publishes NO data transfer rate and no length specification in the page body. Required data_transfer_gbps is therefore unverifiable from the primary source, so the candidate was rejected rather than sourced from retailer listings that claim 480 Mbps.",
+      "group": "g5"
+    },
+    {
+      "candidate": "UGREEN Adjustable Aluminum Phone Holder (SKU 80708, ca.ugreen.com)",
+      "reason": "Not selected, not unverifiable: UGREEN's Canada store page does state adjustable angle and foldable, but the Lamicall manufacturer's page was verified first and states phone-and-tablet compatibility more explicitly ('works for tablets and phones between 4-8 inches'), giving a cleaner controlled-vocabulary device_type. Other UGREEN results found were regional reseller/distributor domains (ugreen.com.pk, ugreenindia.com), which are not the maker's own global product page.",
+      "group": "g6"
+    },
+    {
+      "candidate": "APC SurgeArrest and Belkin SurgePlus surge protectors",
+      "reason": "Not pursued: fallback candidates only. The Tripp Lite TLP606 manufacturer specification on Eaton's site verified every required field (UL 1449 listing, 900 joules, 6 outlets, 6 ft cord) on the first pick, so no second surge protector was needed.",
+      "group": "g6"
+    },
+    {
+      "candidate": "tomtoc Essence-A35 Protective Sleeve for 13-inch MacBook Air (SKU A35C2D1)",
+      "reason": "Considered and verified on tomtoc.com (13-inch size; material stated as '400D Ripstop polyester'), but not selected: the Defender-A13 is the briefed '360 Protective Laptop Sleeve' candidate and its own manufacturer page verified all required specs, so the Essence-A35 was not needed.",
+      "group": "g6"
+    },
+    {
+      "candidate": "Mosiso laptop sleeve",
+      "reason": "Not pursued: fallback candidate with weaker documentation per the brief. tomtoc's manufacturer page verified the required laptop-sleeve specs (device_type laptop, 13-inch maximum fit) on the first pick, so Mosiso was not needed.",
+      "group": "g6"
+    },
+    {
+      "candidate": "OMOTON phone/tablet stand",
+      "reason": "Not pursued: fallback candidate only. The Lamicall manufacturer's own page verified device_type and adjustable_angle on the first pick, so OMOTON was not needed.",
+      "group": "g6"
+    }
+  ]
+}
