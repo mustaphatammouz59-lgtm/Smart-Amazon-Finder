@@ -47,6 +47,7 @@ export interface AttributeDefinitionRow {
   unit: string | null
   value_type: 'number' | 'text' | 'bool'
   is_filterable: number
+  is_required: number
   is_comparison_criterion: number
   sort_weight: number
   specs_count: number
@@ -69,7 +70,7 @@ const BRAND_SELECT = `
 
 const DEFINITION_SELECT = `
   SELECT d.id, d.category_id, d.key, d.label, d.unit, d.value_type, d.is_filterable,
-    d.is_comparison_criterion, d.sort_weight,
+    d.is_required, d.is_comparison_criterion, d.sort_weight,
     (SELECT COUNT(*) FROM product_specs WHERE definition_id = d.id) AS specs_count
   FROM attribute_definitions d`
 
@@ -342,6 +343,7 @@ export interface CreateAttributeDefinitionInput {
   unit?: string | null
   valueType: 'number' | 'text' | 'bool'
   isFilterable?: boolean
+  isRequired?: boolean
   isComparisonCriterion?: boolean
   sortWeight?: number
 }
@@ -365,8 +367,8 @@ export async function createAttributeDefinition(
   const inserted = await db
     .prepare(
       `INSERT INTO attribute_definitions
-         (category_id, key, label, unit, value_type, is_filterable, is_comparison_criterion, sort_weight)
-       VALUES (?,?,?,?,?,?,?,?) RETURNING id`,
+         (category_id, key, label, unit, value_type, is_filterable, is_required, is_comparison_criterion, sort_weight)
+       VALUES (?,?,?,?,?,?,?,?,?) RETURNING id`,
     )
     .bind(
       categoryId,
@@ -375,6 +377,7 @@ export async function createAttributeDefinition(
       input.unit ?? null,
       input.valueType,
       input.isFilterable ? 1 : 0,
+      input.isRequired ? 1 : 0,
       input.isComparisonCriterion ? 1 : 0,
       input.sortWeight ?? 0,
     )
@@ -389,6 +392,7 @@ export interface UpdateAttributeDefinitionPatch {
   label?: string
   unit?: string | null
   isFilterable?: boolean
+  isRequired?: boolean
   isComparisonCriterion?: boolean
   sortWeight?: number
 }
@@ -418,6 +422,10 @@ export async function updateAttributeDefinition(
   if (patch.isFilterable !== undefined) {
     sets.push('is_filterable = ?')
     binds.push(patch.isFilterable ? 1 : 0)
+  }
+  if (patch.isRequired !== undefined) {
+    sets.push('is_required = ?')
+    binds.push(patch.isRequired ? 1 : 0)
   }
   if (patch.isComparisonCriterion !== undefined) {
     sets.push('is_comparison_criterion = ?')
