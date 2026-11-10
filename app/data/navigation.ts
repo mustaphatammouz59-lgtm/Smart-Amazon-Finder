@@ -10,6 +10,7 @@ export const primaryNav: NavItem[] = [
   { label: 'Alternatives', to: '/alternatives' },
   { label: 'Gift Finder', to: '/gift-finder' },
   { label: 'Buying Guides', to: '/buying-guides' },
+  { label: 'Favorites', to: '/favorites' },
 ]
 
 export const companyNav: NavItem[] = [
