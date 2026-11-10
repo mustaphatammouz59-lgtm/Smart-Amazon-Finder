@@ -17,6 +17,7 @@ const patchSchema = z.object({
   label: z.string().trim().min(1).max(120).optional(),
   unit: z.string().trim().max(20).optional().nullable(),
   isFilterable: z.boolean().optional(),
+  isRequired: z.boolean().optional(),
   isComparisonCriterion: z.boolean().optional(),
   sortWeight: z.number().int().optional(),
 })
