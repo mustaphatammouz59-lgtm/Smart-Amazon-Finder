@@ -67,7 +67,7 @@ export default function Alternatives() {
           titleId="how-alt-heading"
           eyebrow="How it works"
           title="Generated from specification differences — then checked by an editor"
-          intro="Alternatives are computed from the specification deltas between products in the same category, and each trade-off sentence is reviewed before publication. No product will ever be labelled an alternative for a commercial reason."
+          intro="Alternatives are computed from the specification deltas between products in the same category, and each trade-off sentence is reviewed before publication. No product will ever be labeled an alternative for a commercial reason."
         />
         <p className="mt-5 text-base leading-7 text-smoke">
           Until the catalog launches, there is nothing honest to list here — alternatives need a real lead
