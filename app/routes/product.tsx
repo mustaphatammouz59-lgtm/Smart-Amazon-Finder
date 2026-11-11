@@ -6,6 +6,8 @@ import { getAlternatives, getProductBySlug } from '../lib/db/catalog'
 import { fixturesEnabled } from '../lib/db/types'
 import type { ProductCard, SpecValue } from '../lib/db/types'
 import { Breadcrumb } from '../components/layout/chrome'
+import { CERTIFICATION_SCOPE_KEY, formatSpecDisplay } from '../lib/spec-display'
+import { merchantDisplayName } from '../lib/merchant-display'
 import { Card, CardText, CardTitle, DisclosureBanner, SectionHeading } from '../components/ui/ui'
 import { CompareButton, FavoriteButton } from '../components/engagement/list-buttons'
 
@@ -49,16 +51,8 @@ function formatCardPrice(cents: number): string {
 }
 
 function formatSpecValue(spec: SpecValue): string | null {
-  if (spec.value_number !== null && spec.value_number !== undefined) {
-    return spec.unit ? `${spec.value_number} ${spec.unit}` : String(spec.value_number)
-  }
-  if (spec.value_bool !== null && spec.value_bool !== undefined) {
-    return spec.value_bool === 1 ? 'Yes' : 'No'
-  }
-  if (spec.value_text !== null && spec.value_text !== undefined) {
-    return spec.value_text
-  }
-  return null
+  // Stage 06.9: shared display layer — enum labels + US customary units.
+  return formatSpecDisplay(spec)
 }
 
 function AlternativeCard({ card }: { card: ProductCard }) {
@@ -163,7 +157,11 @@ export default function ProductPage() {
                     <th scope="row" className="w-1/3 px-5 py-3.5 font-medium text-navy-950">
                       {spec.label}
                     </th>
-                    <td className="px-5 py-3.5 text-navy-900">{formatted}</td>
+                    {spec.key === CERTIFICATION_SCOPE_KEY ? (
+                      <td className="px-5 py-3.5 text-sm italic leading-6 text-navy-900">{formatted}</td>
+                    ) : (
+                      <td className="px-5 py-3.5 text-navy-900">{formatted}</td>
+                    )}
                   </tr>
                 ))}
               </tbody>
@@ -204,7 +202,9 @@ export default function ProductPage() {
                 key={`${offer.merchant_slug}-${i}`}
                 className="flex flex-col rounded-2xl bg-white p-5 shadow-[var(--shadow-card)] ring-1 ring-navy-100"
               >
-                <p className="font-semibold text-navy-950">{offer.merchant_name}</p>
+                <p className="font-semibold text-navy-950">
+                  {merchantDisplayName(offer.merchant_slug, offer.merchant_name, offer.destination_url)}
+                </p>
                 {offer.price_cents !== null && (
                   <p className="mt-2 text-lg font-bold text-navy-950">
                     {formatPrice(offer.price_cents, offer.currency)}
@@ -223,7 +223,8 @@ export default function ProductPage() {
                       rel="sponsored nofollow noopener"
                       className="inline-flex min-h-11 items-center rounded-lg bg-navy-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-navy-800"
                     >
-                      View at {offer.merchant_name}
+                      View at{' '}
+                      {merchantDisplayName(offer.merchant_slug, offer.merchant_name, offer.destination_url)}
                     </a>
                   ) : (
                     <p className="text-sm text-smoke">Merchant link unavailable for this offer.</p>
