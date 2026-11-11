@@ -7,6 +7,7 @@ import { Button, Card, CardText, CardTitle, SectionHeading, SkeletonCard } from 
 import { EmptyState } from '../components/state/states'
 import { ListCheckIcon, ScaleIcon, ShieldIcon } from '../components/ui/icons'
 import { CompareButton } from '../components/engagement/list-buttons'
+import { formatSpecDisplay } from '../lib/spec-display'
 
 export function meta() {
   return buildMeta({
@@ -98,9 +99,16 @@ async function fetchProduct(slug: string): Promise<CompareProduct | 'missing' | 
 function formatSpecValue(spec: CompareSpec | undefined): string {
   // NEVER invent a value: a missing spec, or a null value, is stated as such.
   if (!spec || spec.value === null || spec.value === undefined) return 'Not specified'
-  if (typeof spec.value === 'boolean') return spec.value ? 'Yes' : 'No'
-  if (typeof spec.value === 'number') return spec.unit ? `${spec.value} ${spec.unit}` : String(spec.value)
-  return spec.value
+  // Stage 06.9: shared display layer — enum labels + US customary units,
+  // identical to the product page.
+  const formatted = formatSpecDisplay({
+    key: spec.key,
+    unit: spec.unit,
+    value_number: typeof spec.value === 'number' ? spec.value : null,
+    value_text: typeof spec.value === 'string' ? spec.value : null,
+    value_bool: typeof spec.value === 'boolean' ? spec.value : null,
+  })
+  return formatted ?? 'Not specified'
 }
 
 /** Union of spec labels: first product's order, then new labels appended. */
