@@ -41,7 +41,7 @@ export default function AffiliateDisclosure() {
           <h2 className="text-lg font-semibold text-navy-950">Independence rules</h2>
           <p className="mt-2">
             Commissions never influence scores or rankings: the recommendation system has no input for them.
-            Sponsored placements, if ever introduced, will be labelled "Sponsored" and kept separate from
+            Sponsored placements, if ever introduced, will be labeled "Sponsored" and kept separate from
             editorial results. Prices and availability, when shown at all, will come only from authorised
             sources with a visible timestamp.
           </p>
